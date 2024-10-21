@@ -2,7 +2,7 @@
   {
     "title": "J&P WebShop",
     "description": "E-commerce de ropa creado con Vue.js y Laravel.",
-    "image": "./public/images/webshop.png",
+    "image": "./images/webshop.png",
     "link": "https://github.com/polsanchezm/J-P_WebShop",
     "demoLink": "http://infla.cat:55000/home",
     "finished": true
@@ -10,7 +10,7 @@
   {
     "title": "Memory Game",
     "description": "Clásico juego Memory con varias dificultades.",
-    "image": "./public/images/memory.png",
+    "image": "./images/memory.png",
     "link": "https://github.com/polsanchezm/MemoryGame",
     "demoLink": "https://polsanchezm.github.io/MemoryGame/",
     "finished": true
@@ -18,7 +18,7 @@
   {
     "title": "DNI",
     "description": "Documento nacinal de identidad maquetado con HTML y CSS.",
-    "image": "./public/images/dni.png",
+    "image": "./images/dni.png",
     "link": "https://github.com/polsanchezm/ID_CARD",
     "demoLink": "https://polsanchezm.github.io/ID_CARD/",
     "finished": true
@@ -26,7 +26,7 @@
   {
     "title": "World Canvas",
     "description": "Canvas gracioso sobre la tierra creado con HTML, CSS y JavaScript.",
-    "image": "./public/images/world-canvas.png",
+    "image": "./images/world-canvas.png",
     "link": "https://github.com/polsanchezm/World-Canvas",
     "demoLink": "https://polsanchezm.github.io/World-Canvas/",
     "finished": true
@@ -34,7 +34,7 @@
   {
     "title": "Sistema Solar",
     "description": "Sistema solar maquetado con HTML y CSS.",
-    "image": "./public/images/solar-system.png",
+    "image": "./images/solar-system.png",
     "link": "https://github.com/polsanchezm/SolarSystem",
     "demoLink": "https://polsanchezm.github.io/SolarSystem/",
     "finished": true
@@ -42,7 +42,7 @@
   {
     "title": "Bonded (Nombre provisional)",
     "description": "Plataforma de videos y streaming que fomenta la creación de comunidades.",
-    "image": "./public/images/bonded-logo.png",
+    "image": "./images/bonded-logo.png",
     "link": "https://github.com/polsanchezm/project",
     "demoLink": "https://polsanchezm.github.io/SolarSystem/",
     "finished": false
