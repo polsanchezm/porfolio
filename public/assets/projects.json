@@ -4,7 +4,6 @@
     "description": "E-commerce de ropa creado con Vue.js y Laravel.",
     "image": "./images/webshop.png",
     "link": "https://github.com/polsanchezm/J-P_WebShop",
-    "demoLink": "http://infla.cat:55000/home",
     "finished": true
   },
   {
