@@ -13,7 +13,7 @@ interface Project {
 const projects = ref<Project[]>([])
 
 onMounted(async () => {
-  const response = await fetch('../public/projects.json')
+  const response = await fetch('../public/assets/projects.json')
   projects.value = await response.json()
 })
 
