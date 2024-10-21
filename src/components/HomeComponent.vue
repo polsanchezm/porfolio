@@ -1,30 +1,57 @@
-<template>
-  <div class="min-h-screen flex flex-col">
-    <Header />
-    <main class="flex-grow flex items-center justify-center bg-gray-100">
-      <section class="text-center">
-        <h1 class="text-4xl font-bold text-gray-800">¡Hola! Soy Pol</h1>
-        <p class="mt-4 text-lg text-gray-600">
-          Estudiante de ingeniería informática y desarrollador apasionado por la
-          programación.
-        </p>
-        <a
-          href="#contact"
-          class="mt-6 inline-block px-8 py-3 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600 transition-all"
-        >
-          Contáctame
-        </a>
-      </section>
-    </main>
-    <Footer />
-  </div>
-</template>
-
 <script setup lang="ts">
 import Header from '../components/HeaderComponent.vue'
 import Footer from '../components/FooterComponent.vue'
+import FaceCard from '../components/FaceCardComponent.vue'
+import ProjectCard from '../components/ProjectCardComponent.vue'
 </script>
 
-<style scoped>
-/* No se necesita estilo adicional porque todo está hecho con Tailwind */
-</style>
+<template>
+  <Header />
+  <div
+    class="bg-gradient-to-b from-gray-600 to-gray-500 min-h-screen flex flex-col pt-20"
+  >
+    <div id="main-box" class="grid grid-cols-1 lg:flex xl:flex">
+      <div
+        class="static lg:sticky xl:sticky self-start top-5 sm:mr-5 lg:mr-5 xl:mr-5"
+      >
+        <FaceCard />
+      </div>
+      <div id="content" class="flex-grow">
+        <main
+          class="flex-col flex text-center items-center justify-center text-white"
+        >
+          <div id="about-me" class="m-4 px-12">
+            <h1 class="flex justify-center text-2xl font-bold m-4">Sobre mí</h1>
+            <p class="text-lg text-gray-300 leading-relaxed">
+              Soy Pol, estudiante de ingeniería informática con especialización
+              en desarrollo web y tecnologías backend. Manejo lenguajes como
+              <span class="font-semibold text-white"
+                >PHP, HTML, CSS, JavaScript</span
+              >
+              y <span class="font-semibold text-white">Python</span>, además de
+              herramientas como
+              <span class="font-semibold text-white">Docker</span> y
+              <span class="font-semibold text-white">Kubernetes</span>. Tengo
+              experiencia trabajando con frameworks como
+              <span class="font-semibold text-white"
+                >Angular, Vue, Laravel, Symfony</span
+              >
+              y <span class="font-semibold text-white">Django</span>, y siempre
+              busco mejorar mis habilidades de programación y resolver problemas
+              de manera eficiente. Me apasiona también el uso de IA generativa
+              para crear imágenes a través de modelos como
+              <span class="font-semibold text-white"
+                >DALLE, Stable Diffusion</span
+              >
+              y <span class="font-semibold text-white">Midjourney</span>.
+            </p>
+          </div>
+          <div id="my-projects" class="m-4 p-4">
+            <ProjectCard />
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+  <Footer />
+</template>
