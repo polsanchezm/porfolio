@@ -10,7 +10,7 @@ import ProjectCard from '../components/ProjectCardComponent.vue'
   <div
     class="bg-gradient-to-b from-gray-600 to-gray-500 min-h-screen flex flex-col pt-20"
   >
-    <div id="main-box" class="grid grid-cols-1 lg:flex xl:flex">
+    <div id="more-info" class="grid grid-cols-1 lg:flex xl:flex">
       <div
         class="static lg:sticky xl:sticky self-start top-5 sm:mr-5 lg:mr-5 xl:mr-5"
       >
