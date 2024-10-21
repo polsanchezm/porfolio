@@ -1,18 +1,18 @@
 <template>
-  <div id="main-box" class="m-4 dark:bg-white rounded-lg">
+  <div id="main-box" class="m-4 bg-gray-500 rounded-lg">
     <div id="content" class="m-3 p-5">
       <div id="profile-image" class="lg:size-60 xl:size-60">
         <img
           src="../assets/images/pfp.jpg"
           alt=""
-          class="w-64 h-64 object-cover rounded-lg mx-auto"
+          class="w-64 h-64 mt-3 object-cover rounded-lg mx-auto"
         />
       </div>
       <div id="socials" class="flex justify-center gap-3 mt-8">
         <div id="instagram">
           <a href="https://www.instagram.com/conclusiofatal/">
             <svg
-              class="w-6 h-6 text-gray-800 dark:text-white"
+              class="w-6 h-6"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -32,7 +32,7 @@
         <div id="github">
           <a href="https://github.com/polsanchezm">
             <svg
-              class="w-6 h-6 text-gray-800 dark:text-white"
+              class="w-6 h-6"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -51,7 +51,7 @@
         <div id="email">
           <a href="mailto: poletesan03@gmail.com">
             <svg
-              class="w-6 h-6 text-gray-800 dark:text-white"
+              class="w-6 h-6"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
