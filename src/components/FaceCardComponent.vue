@@ -11,7 +11,7 @@
           class="w-64 h-64 mt-4 object-cover rounded-xl mx-auto"
         />
       </div>
-      <div id="personal-info" class="flex flex-col text-center gap-3 mt-14">
+      <div id="personal-info" class="flex flex-col text-center items-center gap-3 mt-14">
         <div id="name" class="font-alfa text-xl text-gray-900">
           <h1>Pol Sánchez</h1>
         </div>

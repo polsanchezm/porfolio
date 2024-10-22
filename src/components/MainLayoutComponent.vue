@@ -30,7 +30,7 @@ import ContactMe from '../components/ContactMeComponent.vue'
           <ProjectCard />
         </div>
       </div>
-      <ContactMe/>
+      <ContactMe />
       <Footer />
     </div>
   </div>

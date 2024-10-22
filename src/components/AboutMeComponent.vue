@@ -3,11 +3,11 @@
     <div id="more-info" class="grid grid-cols-1 lg:flex xl:flex">
       <div id="content" class="flex-grow">
         <main
-          class="flex-col flex text-center items-center justify-center text-white"
+          class="flex-col flex text-left items-center justify-center text-white"
         >
           <div
             id="about-me"
-            class="flex items-center justify-center min-h-screen m-4 px-12"
+            class="flex items-center justify-center min-h-screen m-4 px-4 max-w-4xl mx-auto"
           >
             <div class="text-lg text-gray-300 leading-relaxed">
               <h1 class="flex justify-center text-2xl font-bold m-4">
@@ -30,8 +30,8 @@
                 <span class="font-semibold text-white">Kubernetes</span>.
                 <br />
                 <br />
-                <span
-                  >Actualmente, estoy trabajando en un emocionante proyecto
+                <span>
+                  Actualmente, estoy trabajando en un emocionante proyecto
                   individual: una
                   <span class="font-semibold text-white"
                     >plataforma de streaming y videos</span
