@@ -40,7 +40,11 @@ const inProgressProjects = computed(() =>
           <div
             v-for="project in finishedProjects"
             :key="project.title"
-            :class="project.latest ? 'lg:col-span-1 sm:col-span-2 md:col-span-2 xl:col-span-1 2xl:col-span-2' : 'col-span-1'"
+            :class="
+              project.latest
+                ? 'lg:col-span-1 sm:col-span-2 md:col-span-2 xl:col-span-1 2xl:col-span-2'
+                : 'col-span-1'
+            "
             class="bg-white shadow-md rounded-lg overflow-hidden transition transform duration-300 hover:scale-105 hover:shadow-lg hover:brightness-110"
           >
             <img
