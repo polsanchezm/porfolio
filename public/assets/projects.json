@@ -4,7 +4,8 @@
     "description": "E-commerce de ropa creado con Vue.js y Laravel.",
     "image": "./images/webshop.png",
     "link": "https://github.com/polsanchezm/J-P_WebShop",
-    "finished": true
+    "finished": true,
+    "latest": true
   },
   {
     "title": "Memory Game",

@@ -8,6 +8,7 @@ interface Project {
   link: string
   demoLink?: string
   finished: boolean
+  latest: boolean
 }
 
 const projects = ref<Project[]>([])
@@ -33,10 +34,13 @@ const inProgressProjects = computed(() =>
         <h1 class="flex justify-center text-center text-2xl font-bold m-4">
           Proyectos Acabados
         </h1>
-        <div class="grid grid-cols-1 gap-5">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-1 md:grid-cols-2 sm:grid-cols-2 xl:grid-cols-1 2xl:grid-cols-2 gap-4"
+        >
           <div
             v-for="project in finishedProjects"
             :key="project.title"
+            :class="project.latest ? 'lg:col-span-1 sm:col-span-2 md:col-span-2 xl:col-span-1 2xl:col-span-2' : 'col-span-1'"
             class="bg-white shadow-md rounded-lg overflow-hidden transition transform duration-300 hover:scale-105 hover:shadow-lg hover:brightness-110"
           >
             <img

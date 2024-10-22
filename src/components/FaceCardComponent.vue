@@ -1,14 +1,25 @@
 <template>
-  <div id="main-box" class="m-4 bg-gray-500 rounded-lg">
+  <div
+    id="main-box"
+    class="bg-white border border-gray-200 rounded-xl shadow-md overflow-hidden max-w-xs mx-auto"
+  >
     <div id="content" class="m-3 p-5">
-      <div id="profile-image" class="lg:size-60 xl:size-60">
+      <div id="profile-image" class="flex justify-center lg:size-60 xl:size-60">
         <img
           src="../assets/images/pfp.jpg"
           alt=""
-          class="w-64 h-64 mt-3 object-cover rounded-lg mx-auto"
+          class="w-64 h-64 mt-4 object-cover rounded-xl mx-auto"
         />
       </div>
-      <div id="socials" class="flex justify-center gap-3 mt-8">
+      <div id="personal-info" class="flex flex-col text-center gap-3 mt-14">
+        <div id="name" class="font-alfa text-xl text-gray-900">
+          <h1>Pol Sánchez</h1>
+        </div>
+        <div id="brief-description" class="font-alfa text-sm text-gray-600">
+          <p>Estudiante de ingeniería informática apasionado por la programación. Especializado en PHP, JavaScript y frameworks como Laravel y Django</p>
+        </div>
+      </div>
+      <div id="socials" class="flex justify-center gap-3 mt-14">
         <div id="instagram">
           <a href="https://www.instagram.com/conclusiofatal/">
             <svg
@@ -72,5 +83,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts"></script>
