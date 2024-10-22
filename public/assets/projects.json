@@ -9,23 +9,15 @@
   },
   {
     "title": "Memory Game",
-    "description": "Clásico juego Memory con varias dificultades.",
+    "description": "Clásico juego Memory con varias dificultades, hecho con HTML, CSS y JavaScript vanilla.",
     "image": "./images/memory.png",
     "link": "https://github.com/polsanchezm/MemoryGame",
     "demoLink": "https://polsanchezm.github.io/MemoryGame/",
     "finished": true
   },
   {
-    "title": "DNI",
-    "description": "Documento nacinal de identidad maquetado con HTML y CSS.",
-    "image": "./images/dni.png",
-    "link": "https://github.com/polsanchezm/ID_CARD",
-    "demoLink": "https://polsanchezm.github.io/ID_CARD/",
-    "finished": true
-  },
-  {
     "title": "World Canvas",
-    "description": "Canvas gracioso sobre la tierra creado con HTML, CSS y JavaScript.",
+    "description": "Canvas gracioso sobre la tierra creado con HTML, CSS y JavaScript vanilla.",
     "image": "./images/world-canvas.png",
     "link": "https://github.com/polsanchezm/World-Canvas",
     "demoLink": "https://polsanchezm.github.io/World-Canvas/",
@@ -40,8 +32,16 @@
     "finished": true
   },
   {
+    "title": "DNI",
+    "description": "Documento nacinal de identidad maquetado con HTML y CSS.",
+    "image": "./images/dni.png",
+    "link": "https://github.com/polsanchezm/ID_CARD",
+    "demoLink": "https://polsanchezm.github.io/ID_CARD/",
+    "finished": true
+  },
+  {
     "title": "Bonded (Nombre provisional)",
-    "description": "Plataforma de videos y streaming que fomenta la creación de comunidades.",
+    "description": "Plataforma de videos y streaming que fomenta la creación de comunidades. Hecho con Laravel, Angular y Flask.",
     "image": "./images/bonded-logo.png",
     "link": "https://github.com/polsanchezm/project",
     "demoLink": "https://polsanchezm.github.io/SolarSystem/",
