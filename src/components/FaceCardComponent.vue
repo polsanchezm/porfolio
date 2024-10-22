@@ -27,7 +27,7 @@
             rel="noopener noreferrer"
           >
             <svg
-              class="w-6 h-6 text-gray-800 dark:text-white"
+              class="w-8 h-8 text-gray-800 dark:text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -51,7 +51,7 @@
             rel="noopener noreferrer"
           >
             <svg
-              class="w-6 h-6 text-gray-800 dark:text-white"
+              class="w-8 h-8 text-gray-800 dark:text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -75,7 +75,7 @@
             rel="noopener noreferrer"
           >
             <svg
-              class="w-6 h-6"
+              class="w-8 h-8"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -94,7 +94,7 @@
         <div id="email">
           <a href="mailto: poletesan03@gmail.com">
             <svg
-              class="w-6 h-6"
+              class="w-8 h-8"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
