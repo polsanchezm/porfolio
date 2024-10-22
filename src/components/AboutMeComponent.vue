@@ -1,21 +1,19 @@
-<script setup lang="ts">
-import ProjectCard from '../components/ProjectCardComponent.vue'
-import MainLayout from '../components/MainLayoutComponent.vue'
-</script>
-
 <template>
-  <MainLayout>
-    <div class="min-h-screen flex flex-col pt-20">
-      <div id="more-info" class="grid grid-cols-1 lg:flex xl:flex">
-        <div id="content" class="flex-grow">
-          <main
-            class="flex-col flex text-center items-center justify-center text-white"
+  <div class="min-h-screen flex flex-col pt-20">
+    <div id="more-info" class="grid grid-cols-1 lg:flex xl:flex">
+      <div id="content" class="flex-grow">
+        <main
+          class="flex-col flex text-center items-center justify-center text-white"
+        >
+          <div
+            id="about-me"
+            class="flex items-center justify-center min-h-screen m-4 px-12"
           >
-            <div id="about-me" class="m-4 px-12">
+            <div class="text-lg text-gray-300 leading-relaxed">
               <h1 class="flex justify-center text-2xl font-bold m-4">
                 Sobre mí
               </h1>
-              <p class="text-lg text-gray-300 leading-relaxed">
+              <p>
                 ¡Hola! Soy <span class="font-semibold text-white">Pol</span>,
                 desarrollador web. Me especializo en
                 <span class="font-semibold text-white">Laravel</span> y
@@ -50,13 +48,9 @@ import MainLayout from '../components/MainLayoutComponent.vue'
                 </span>
               </p>
             </div>
-
-            <div id="my-projects" class="m-4 p-4">
-              <ProjectCard />
-            </div>
-          </main>
-        </div>
+          </div>
+        </main>
       </div>
     </div>
-  </MainLayout>
+  </div>
 </template>

@@ -2,10 +2,14 @@
 import Header from '../components/HeaderComponent.vue'
 import Footer from '../components/FooterComponent.vue'
 import FaceCard from '../components/FaceCardComponent.vue'
+import ProjectCard from '../components/ProjectCardComponent.vue'
+import AboutMe from '../components/AboutMeComponent.vue'
 </script>
 
 <template>
-  <div class="flex min-h-screen bg-gradient-to-b from-gray-900 to-gray-500">
+  <div
+    class="flex min-h-screen bg-gradient-to-b from-gray-900 to-gray-500 text-white"
+  >
     <aside
       class="hidden lg:hidden xl:flex lg:sticky lg:top-0 lg:w-1/4 lg:h-screen lg:flex-col lg:justify-center ml-24"
     >
@@ -18,7 +22,10 @@ import FaceCard from '../components/FaceCardComponent.vue'
         <FaceCard />
       </div>
       <div class="flex-grow flex flex-col justify-center">
-        <slot />
+        <AboutMe />
+        <div id="my-projects" class="m-4 p-4">
+          <ProjectCard />
+        </div>
       </div>
       <Footer />
     </div>
