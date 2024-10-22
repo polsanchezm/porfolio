@@ -16,7 +16,7 @@
           <h1>Pol Sánchez</h1>
         </div>
         <div id="brief-description" class="font-alfa text-sm text-gray-600">
-          <p>Estudiante de ingeniería informática apasionado por la programación. Especializado en PHP, JavaScript y frameworks como Laravel y Django</p>
+          <p>Desarrollador web Full Stack especializado en Laravel y Vue.js</p>
         </div>
       </div>
       <div id="socials" class="flex justify-center gap-3 mt-14">

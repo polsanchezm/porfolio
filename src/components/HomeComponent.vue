@@ -16,28 +16,38 @@ import MainLayout from '../components/MainLayoutComponent.vue'
                 Sobre mí
               </h1>
               <p class="text-lg text-gray-300 leading-relaxed">
-                Soy Pol, estudiante de ingeniería informática con
-                especialización en desarrollo web y tecnologías backend. Manejo
-                lenguajes como
-                <span class="font-semibold text-white"
-                  >PHP, HTML, CSS, JavaScript</span
-                >
-                y <span class="font-semibold text-white">Python</span>, además
-                de herramientas como
+                ¡Hola! Soy <span class="font-semibold text-white">Pol</span>,
+                desarrollador web. Me especializo en
+                <span class="font-semibold text-white">Laravel</span> y
+                <span class="font-semibold text-white">Vue.js</span>, aunque
+                también tengo experiencia con frameworks de
+                <span class="font-semibold text-white">front-end</span>, como
+                <span class="font-semibold text-white">Angular</span> y
+                <span class="font-semibold text-white">Node.js</span>, así como
+                en <span class="font-semibold text-white">back-end</span> con
+                <span class="font-semibold text-white">Symfony</span> y
+                <span class="font-semibold text-white">Django</span>. Además,
+                cuento con habilidades en tecnologías de contenedorización como
                 <span class="font-semibold text-white">Docker</span> y
-                <span class="font-semibold text-white">Kubernetes</span>. Tengo
-                experiencia trabajando con frameworks como
-                <span class="font-semibold text-white"
-                  >Angular, Vue, Laravel, Symfony</span
-                >
-                y <span class="font-semibold text-white">Django</span>, y
-                siempre busco mejorar mis habilidades de programación y resolver
-                problemas de manera eficiente. Me apasiona también el uso de IA
-                generativa para crear imágenes a través de modelos como
-                <span class="font-semibold text-white"
-                  >DALLE, Stable Diffusion</span
-                >
-                y <span class="font-semibold text-white">Midjourney</span>.
+                <span class="font-semibold text-white">Kubernetes</span>.
+                <br />
+                <br />
+                <span
+                  >Actualmente, estoy trabajando en un emocionante proyecto
+                  individual: una
+                  <span class="font-semibold text-white"
+                    >plataforma de streaming y videos</span
+                  >
+                  que busca ofrecer una experiencia enriquecedora tanto al
+                  usuario individual como a sus comunidades.
+                </span>
+                <br />
+                <br />
+                <span>
+                  Me apasiona aprender y desarrollar mis habilidades en el
+                  proceso, enfrentando nuevos desafíos que me permitan seguir
+                  creciendo como profesional.
+                </span>
               </p>
             </div>
 
