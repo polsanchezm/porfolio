@@ -4,9 +4,12 @@ import Footer from '../components/FooterComponent.vue'
 import FaceCard from '../components/FaceCardComponent.vue'
 import ProjectCard from '../components/ProjectCardComponent.vue'
 import AboutMe from '../components/AboutMeComponent.vue'
+import Navbar from '../components/NavbarComponent.vue'
+import ContactMe from '../components/ContactMeComponent.vue'
 </script>
 
 <template>
+  <Navbar />
   <div
     class="flex min-h-screen bg-gradient-to-b from-gray-900 to-gray-500 text-white"
   >
@@ -23,10 +26,11 @@ import AboutMe from '../components/AboutMeComponent.vue'
       </div>
       <div class="flex-grow flex flex-col justify-center">
         <AboutMe />
-        <div id="my-projects" class="m-4 p-4">
+        <div id="projects" class="m-4 p-4">
           <ProjectCard />
         </div>
       </div>
+      <ContactMe/>
       <Footer />
     </div>
   </div>

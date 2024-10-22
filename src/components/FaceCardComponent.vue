@@ -1,7 +1,7 @@
 <template>
   <div
     id="main-box"
-    class="bg-white border border-gray-200 rounded-xl shadow-md overflow-hidden max-w-xs mx-auto"
+    class="bg-gray-400 rounded-xl shadow-md overflow-hidden max-w-xs mx-auto"
   >
     <div id="content" class="m-3 p-5">
       <div id="profile-image" class="flex justify-center lg:size-60 xl:size-60">
@@ -27,7 +27,7 @@
             rel="noopener noreferrer"
           >
             <svg
-              class="w-8 h-8 text-gray-800 dark:text-white"
+              class="w-8 h-8 text-gray-800"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -51,7 +51,7 @@
             rel="noopener noreferrer"
           >
             <svg
-              class="w-8 h-8 text-gray-800 dark:text-white"
+              class="w-8 h-8 text-gray-800"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -92,7 +92,7 @@
           </a>
         </div>
         <div id="email">
-          <a href="mailto: poletesan03@gmail.com">
+          <a href="mailto: pol.sm.dev">
             <svg
               class="w-8 h-8"
               aria-hidden="true"

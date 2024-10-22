@@ -45,7 +45,7 @@ const inProgressProjects = computed(() =>
                 ? 'lg:col-span-1 sm:col-span-2 md:col-span-2 xl:col-span-1 2xl:col-span-2'
                 : 'col-span-1'
             "
-            class="bg-white shadow-md rounded-lg overflow-hidden transition transform duration-300 hover:scale-105 hover:shadow-lg hover:brightness-110"
+            class="bg-gray-200 shadow-md rounded-lg overflow-hidden transition transform duration-300 hover:scale-105 hover:shadow-lg hover:brightness-110"
           >
             <img
               :src="project.image"
@@ -61,7 +61,7 @@ const inProgressProjects = computed(() =>
                 <a
                   :href="project.link"
                   type="button"
-                  class="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 me-2 mb-2"
+                  class="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-5 text-center inline-flex items-center me-2 mb-2"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -82,12 +82,12 @@ const inProgressProjects = computed(() =>
                 <div v-if="project.demoLink">
                   <a
                     :href="project.demoLink"
-                    class="flex text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                    class="flex text-white bg-blue-600 hover:bg-blue-500 font-medium rounded-lg text-sm px-5 py-5 me-2 mb-2 focus:outline-none"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <svg
-                      class="w-6 h-6 text-gray-800 dark:text-white"
+                      class="w-6 h-6 text-gray-800"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -117,7 +117,7 @@ const inProgressProjects = computed(() =>
           <div
             v-for="project in inProgressProjects"
             :key="project.title"
-            class="bg-white shadow-md rounded-lg overflow-hidden transition transform duration-300 hover:scale-105 hover:shadow-lg hover:brightness-110"
+            class="bg-gray-200 shadow-md rounded-lg overflow-hidden transition transform duration-300 hover:scale-105 hover:shadow-lg hover:brightness-110"
           >
             <img
               :src="project.image"
