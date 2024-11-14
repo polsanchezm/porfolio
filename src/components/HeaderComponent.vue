@@ -6,7 +6,9 @@
       <h1 class="text-left text-2xl md:text-6xl sm:text-4xl mb-4 font-alfa">
         <span class="block">Hola,</span>
         <span class="block sm:ml-16 md:ml-16 lg:ml-16 xl:ml-16">soy Pol,</span>
-        <span class="block sm:ml-32 md:ml-32 lg:ml-32 xl:ml-32">desarrollador web</span>
+        <span class="block sm:ml-32 md:ml-32 lg:ml-32 xl:ml-32"
+          >desarrollador web</span
+        >
       </h1>
 
       <p class="text-sm md:text-lg lg:text-xl mb-6 font-alfa">
