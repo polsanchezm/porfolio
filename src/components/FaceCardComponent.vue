@@ -1,18 +1,33 @@
 <template>
-  <div id="main-box" class="m-4 bg-gray-500 rounded-lg">
+  <div
+    id="main-box"
+    class="bg-gray-400 rounded-xl shadow-md overflow-hidden max-w-xs mx-auto"
+  >
     <div id="content" class="m-3 p-5">
-      <div id="profile-image" class="lg:size-60 xl:size-60">
+      <div id="profile-image" class="flex justify-center lg:size-60 xl:size-60">
         <img
           src="../assets/images/pfp.jpg"
           alt=""
-          class="w-64 h-64 mt-3 object-cover rounded-lg mx-auto"
+          class="w-64 h-64 mt-4 object-cover rounded-xl mx-auto"
         />
       </div>
-      <div id="socials" class="flex justify-center gap-3 mt-8">
-        <div id="instagram">
-          <a href="https://www.instagram.com/conclusiofatal/">
+      <div id="personal-info" class="flex flex-col text-center items-center gap-3 mt-14">
+        <div id="name" class="font-alfa text-xl text-gray-900">
+          <h1>Pol Sánchez</h1>
+        </div>
+        <div id="brief-description" class="font-alfa text-sm text-gray-600">
+          <p>Desarrollador web Full Stack especializado en Laravel y Vue.js</p>
+        </div>
+      </div>
+      <div id="socials" class="flex justify-center gap-3 mt-14">
+        <div id="resume">
+          <a
+            href="https://drive.google.com/file/d/1DT6rLQ_6t3PN9z4WxazWKc-V5Lq8W9sD/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
-              class="w-6 h-6"
+              class="w-8 h-8 text-gray-800"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -21,18 +36,46 @@
               viewBox="0 0 24 24"
             >
               <path
-                fill="black"
-                fill-rule="evenodd"
-                d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
-                clip-rule="evenodd"
+                stroke="black"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 3v4a1 1 0 0 1-1 1H5m14-4v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1Z"
               />
             </svg>
           </a>
         </div>
-        <div id="github">
-          <a href="https://github.com/polsanchezm">
+        <div id="linkedin">
+          <a
+            href="https://www.linkedin.com/in/pol-sanchez-396ba819b/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
-              class="w-6 h-6"
+              class="w-8 h-8 text-gray-800"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="black"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z"
+                clip-rule="evenodd"
+              />
+              <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
+            </svg>
+          </a>
+        </div>
+        <div id="github">
+          <a
+            href="https://github.com/polsanchezm"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              class="w-8 h-8"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -49,9 +92,9 @@
           </a>
         </div>
         <div id="email">
-          <a href="mailto: poletesan03@gmail.com">
+          <a href="mailto: pol.sm.dev">
             <svg
-              class="w-6 h-6"
+              class="w-8 h-8"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -72,5 +115,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts"></script>

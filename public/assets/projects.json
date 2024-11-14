@@ -1,30 +1,23 @@
 [
   {
     "title": "J&P WebShop",
-    "description": "E-commerce de ropa creado con Vue.js y Laravel.",
+    "description": "E-commerce de venta de ropa. Desarrollado con Vue.js y Laravel.",
     "image": "./images/webshop.png",
     "link": "https://github.com/polsanchezm/J-P_WebShop",
-    "finished": true
+    "finished": true,
+    "latest": true
   },
   {
     "title": "Memory Game",
-    "description": "Clásico juego Memory con varias dificultades.",
+    "description": "Clásico juego Memory con varias dificultades. Desarrollado con HTML, CSS y JavaScript vanilla.",
     "image": "./images/memory.png",
     "link": "https://github.com/polsanchezm/MemoryGame",
     "demoLink": "https://polsanchezm.github.io/MemoryGame/",
     "finished": true
   },
   {
-    "title": "DNI",
-    "description": "Documento nacinal de identidad maquetado con HTML y CSS.",
-    "image": "./images/dni.png",
-    "link": "https://github.com/polsanchezm/ID_CARD",
-    "demoLink": "https://polsanchezm.github.io/ID_CARD/",
-    "finished": true
-  },
-  {
     "title": "World Canvas",
-    "description": "Canvas gracioso sobre la tierra creado con HTML, CSS y JavaScript.",
+    "description": "Canvas gracioso sobre la tierra. Desarrollado con HTML, CSS y JavaScript vanilla.",
     "image": "./images/world-canvas.png",
     "link": "https://github.com/polsanchezm/World-Canvas",
     "demoLink": "https://polsanchezm.github.io/World-Canvas/",
@@ -32,15 +25,23 @@
   },
   {
     "title": "Sistema Solar",
-    "description": "Sistema solar maquetado con HTML y CSS.",
+    "description": "Sistema solar móvil. Desarrollado con HTML y CSS.",
     "image": "./images/solar-system.png",
     "link": "https://github.com/polsanchezm/SolarSystem",
     "demoLink": "https://polsanchezm.github.io/SolarSystem/",
     "finished": true
   },
   {
+    "title": "DNI",
+    "description": "Imitación de documento nacional de identidad. Desarrollado con HTML y CSS.",
+    "image": "./images/dni.png",
+    "link": "https://github.com/polsanchezm/ID_CARD",
+    "demoLink": "https://polsanchezm.github.io/ID_CARD/",
+    "finished": true
+  },
+  {
     "title": "Bonded (Nombre provisional)",
-    "description": "Plataforma de videos y streaming que fomenta la creación de comunidades.",
+    "description": "Plataforma de videos y streaming que fomenta la creación de comunidades. Desarrollado con Laravel, Angular y Flask.",
     "image": "./images/bonded-logo.png",
     "link": "https://github.com/polsanchezm/project",
     "demoLink": "https://polsanchezm.github.io/SolarSystem/",
