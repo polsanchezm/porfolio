@@ -1,11 +1,18 @@
 [
   {
+    "title": "Bondlog",
+    "description": "Blog para la comunidad de Bonded. Desarrollado con NextJS y Laravel.",
+    "image": "./images/bondlog-logo.png",
+    "link": "https://github.com/polsanchezm/Bondlog",
+    "finished": true,
+    "latest": true
+  },
+  {
     "title": "J&P WebShop",
     "description": "E-commerce de venta de ropa. Desarrollado con Vue.js y Laravel.",
     "image": "./images/webshop.png",
     "link": "https://github.com/polsanchezm/J-P_WebShop",
-    "finished": true,
-    "latest": true
+    "finished": true
   },
   {
     "title": "Memory Game",
@@ -40,11 +47,10 @@
     "finished": true
   },
   {
-    "title": "Bonded (Nombre provisional)",
-    "description": "Plataforma de videos y streaming que fomenta la creación de comunidades. Desarrollado con Laravel, Angular y Flask.",
+    "title": "Bonded",
+    "description": "Plataforma de videos y streaming que fomenta la creación de comunidades. Desarrollado con NextJS, Laravel y Flask.",
     "image": "./images/bonded-logo.png",
     "link": "https://github.com/polsanchezm/project",
-    "demoLink": "https://polsanchezm.github.io/SolarSystem/",
     "finished": false
   }
 ]
