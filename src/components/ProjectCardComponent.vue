@@ -10,13 +10,13 @@ const project = defineProps<Project>()
   <article class="bg-gray-400 group/card relative overflow-hidden rounded-lg">
     <div v-show="project.latest" class="absolute top-2 right-2 z-30">
       <ProjectBadgeComponent
-        text="Latest project"
+        :text="$t('badge.latest')"
         badgeColor="bg-green-600"
         noPulse
       />
     </div>
     <div v-show="!project.finished" class="absolute top-2 left-2 z-30">
-      <ProjectBadgeComponent text="Working on it" />
+      <ProjectBadgeComponent :text="$t('badge.working')" />
     </div>
 
     <img

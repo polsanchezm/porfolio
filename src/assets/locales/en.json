@@ -80,5 +80,9 @@
   "header": {
     "content": "<span class=\"block\">Hello,</span><span class=\"block sm:ml-16 md:ml-16 lg:ml-16 xl:ml-16\">I'm Pol,</span><span class=\"block sm:ml-32 md:ml-32 lg:ml-32 xl:ml-32\">web developer</span>",
     "button": "More about me"
+  },
+  "badge": {
+    "working": "Working on it",
+    "latest": "Latest project"
   }
 }
