@@ -11,7 +11,7 @@
       },
       {
         "title": "Bondlog",
-        "description": "Blog para la comunidad Bonded. Construido con NextJS y Laravel.",
+        "description": "Blog para la comunidad de Bonded. Construido con NextJS y Laravel.",
         "image": "./images/bondlog-logo.png",
         "link": "https://github.com/polsanchezm/Bondlog",
         "finished": true,
@@ -19,14 +19,14 @@
       },
       {
         "title": "J&P WebShop",
-        "description": "Tienda en línea para la venta de ropa. Desarrollada con Vue.js y Laravel.",
+        "description": "E-commerce para la venta de ropa. Desarrollada con Vue.js y Laravel.",
         "image": "./images/webshop.png",
         "link": "https://github.com/polsanchezm/J-P_WebShop",
         "finished": true
       },
       {
         "title": "Juego de Memoria",
-        "description": "Juego clásico de memoria con múltiples niveles de dificultad. Desarrollado con HTML, CSS y JavaScript puro.",
+        "description": "Juego clásico Memory con múltiples niveles de dificultad. Desarrollado con HTML, CSS y JavaScript puro.",
         "image": "./images/memory.png",
         "link": "https://github.com/polsanchezm/MemoryGame",
         "demoLink": "https://polsanchezm.github.io/MemoryGame/",
@@ -34,7 +34,7 @@
       },
       {
         "title": "Lienzo del Mundo",
-        "description": "Lienzo divertido sobre la Tierra. Desarrollado con HTML, CSS y JavaScript puro.",
+        "description": "Canvas divertido sobre la Tierra. Desarrollado con HTML, CSS y JavaScript puro.",
         "image": "./images/world-canvas.png",
         "link": "https://github.com/polsanchezm/World-Canvas",
         "demoLink": "https://polsanchezm.github.io/World-Canvas/",
@@ -42,7 +42,7 @@
       },
       {
         "title": "Sistema Solar",
-        "description": "Sistema solar movible. Desarrollado con HTML y CSS.",
+        "description": "Sistema solar móvil. Desarrollado con HTML y CSS.",
         "image": "./images/solar-system.png",
         "link": "https://github.com/polsanchezm/SolarSystem",
         "demoLink": "https://polsanchezm.github.io/SolarSystem/",

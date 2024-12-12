@@ -11,7 +11,7 @@
       },
       {
         "title": "Bondlog",
-        "description": "Blog per a la comunitat Bonded. Construït amb NextJS i Laravel.",
+        "description": "Blog per a la comunitat de Bonded. Desenvolupat amb NextJS i Laravel.",
         "image": "./images/bondlog-logo.png",
         "link": "https://github.com/polsanchezm/Bondlog",
         "finished": true,
@@ -19,14 +19,14 @@
       },
       {
         "title": "J&P WebShop",
-        "description": "Botiga en línia per a la venda de roba. Desenvolupada amb Vue.js i Laravel.",
+        "description": "E-commerce per a la venda de roba. Desenvolupada amb Vue.js i Laravel.",
         "image": "./images/webshop.png",
         "link": "https://github.com/polsanchezm/J-P_WebShop",
         "finished": true
       },
       {
         "title": "Joc de Memòria",
-        "description": "Joc clàssic de memòria amb múltiples nivells de dificultat. Desenvolupat amb HTML, CSS i JavaScript pur.",
+        "description": "Joc clàssic Memory amb múltiples nivells de dificultat. Desenvolupat amb HTML, CSS i JavaScript pur.",
         "image": "./images/memory.png",
         "link": "https://github.com/polsanchezm/MemoryGame",
         "demoLink": "https://polsanchezm.github.io/MemoryGame/",
@@ -42,7 +42,7 @@
       },
       {
         "title": "Sistema Solar",
-        "description": "Sistema solar movible. Desenvolupat amb HTML i CSS.",
+        "description": "Sistema solar mòbil. Desenvolupat amb HTML i CSS.",
         "image": "./images/solar-system.png",
         "link": "https://github.com/polsanchezm/SolarSystem",
         "demoLink": "https://polsanchezm.github.io/SolarSystem/",
@@ -60,12 +60,12 @@
   },
   "about": {
     "title": "Sobre mi",
-    "content": "Hola! Soc <span class=\"font-bold text-white\">Pol</span>, un desenvolupador web especialitzat en <span class=\"font-bold text-white\">VueJS</span> i <span class=\"font-bold text-white\">Laravel</span>, tot i que també tinc experiència amb <span class=\"font-bold text-white\">NextJS</span>, <span class=\"font-bold text-white\">Angular</span>, <span class=\"font-bold text-white\">NodeJS</span>, <span class=\"font-bold text-white\">Symfony</span> i <span class=\"font-bold text-white\">Django</span>. A més, tenc habilitats en tecnologies de contenidors com <span class=\"font-bold text-white\">Docker</span> i <span class=\"font-bold text-white\">Kubernetes</span>.<br /><br /><span>Actualment, estic treballant en el meu projecte en solitari més gran fins avui: una <span class=\"font-bold text-white\">plataforma de vídeos i streaming</span> que cerca oferir una experiència enriquidora per als usuaris individuals i les seves comunitats.</span>"
+    "content": "Hola! Soc en <span class=\"font-bold text-white\">Pol</span>, un desenvolupador web especialitzat en <span class=\"font-bold text-white\">VueJS</span> i <span class=\"font-bold text-white\">Laravel</span>, tot i que també tinc experiència amb <span class=\"font-bold text-white\">NextJS</span>, <span class=\"font-bold text-white\">Angular</span>, <span class=\"font-bold text-white\">NodeJS</span>, <span class=\"font-bold text-white\">Symfony</span> i <span class=\"font-bold text-white\">Django</span>. A més, tinc habilitats en tecnologies de contenidors com <span class=\"font-bold text-white\">Docker</span> i <span class=\"font-bold text-white\">Kubernetes</span>.<br /><br /><span>Actualment, estic treballant en el meu projecte en solitari més gran fins avui: una <span class=\"font-bold text-white\">plataforma de vídeos i streaming</span> que cerca oferir una experiència enriquidora per als usuaris individuals i les seves comunitats.</span>"
   },
   "navbar": {
     "home": "Inici",
     "projects": "Projectes",
-    "about": "Sobre mí",
+    "about": "Sobre mi",
     "contact": "Contacte"
   },
   "contact": {
@@ -78,7 +78,7 @@
     "content": "Quasi tots els drets reservats"
   },
   "header": {
-    "content": "<span class=\"block\">Hola,</span><span class=\"block sm:ml-16 md:ml-16 lg:ml-16 xl:ml-16\">soc Pol,</span><span class=\"block sm:ml-32 md:ml-32 lg:ml-32 xl:ml-32\">desenvolupador web</span>",
+    "content": "<span class=\"block\">Hola,</span><span class=\"block sm:ml-16 md:ml-16 lg:ml-16 xl:ml-16\">soc en Pol,</span><span class=\"block sm:ml-32 md:ml-32 lg:ml-32 xl:ml-32\">desenvolupador web</span>",
     "button": "Més sobre mi"
   }
 }
