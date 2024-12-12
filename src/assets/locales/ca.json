@@ -5,14 +5,14 @@
       {
         "title": "Bonded",
         "description": "Plataforma de vídeos i streaming que fomenta la creació de comunitats. Desenvolupada amb NextJS, Laravel i Flask.",
-        "image": "./images/bonded-logo.png",
+        "image": "./images/bonded-logo.webp",
         "link": "https://github.com/polsanchezm/project",
         "finished": false
       },
       {
         "title": "Bondlog",
         "description": "Blog per a la comunitat de Bonded. Desenvolupat amb NextJS i Laravel.",
-        "image": "./images/bondlog-logo.png",
+        "image": "./images/bondlog-logo.webp",
         "link": "https://github.com/polsanchezm/Bondlog",
         "finished": true,
         "latest": true
@@ -20,14 +20,14 @@
       {
         "title": "J&P WebShop",
         "description": "E-commerce per a la venda de roba. Desenvolupada amb Vue.js i Laravel.",
-        "image": "./images/webshop.png",
+        "image": "./images/webshop.webp",
         "link": "https://github.com/polsanchezm/J-P_WebShop",
         "finished": true
       },
       {
         "title": "Joc de Memòria",
         "description": "Joc clàssic Memory amb múltiples nivells de dificultat. Desenvolupat amb HTML, CSS i JavaScript pur.",
-        "image": "./images/memory.png",
+        "image": "./images/memory.webp",
         "link": "https://github.com/polsanchezm/MemoryGame",
         "demoLink": "https://polsanchezm.github.io/MemoryGame/",
         "finished": true
@@ -35,7 +35,7 @@
       {
         "title": "Canvas del Món",
         "description": "Canvas divertit sobre la Terra. Desenvolupat amb HTML, CSS i JavaScript pur.",
-        "image": "./images/world-canvas.png",
+        "image": "./images/world-canvas.webp",
         "link": "https://github.com/polsanchezm/World-Canvas",
         "demoLink": "https://polsanchezm.github.io/World-Canvas/",
         "finished": true
@@ -43,7 +43,7 @@
       {
         "title": "Sistema Solar",
         "description": "Sistema solar mòbil. Desenvolupat amb HTML i CSS.",
-        "image": "./images/solar-system.png",
+        "image": "./images/solar-system.webp",
         "link": "https://github.com/polsanchezm/SolarSystem",
         "demoLink": "https://polsanchezm.github.io/SolarSystem/",
         "finished": true
@@ -51,7 +51,7 @@
       {
         "title": "DNI",
         "description": "Imitació d'un document nacional d'identitat. Desenvolupat amb HTML i CSS.",
-        "image": "./images/dni.png",
+        "image": "./images/dni.webp",
         "link": "https://github.com/polsanchezm/ID_CARD",
         "demoLink": "https://polsanchezm.github.io/ID_CARD/",
         "finished": true
