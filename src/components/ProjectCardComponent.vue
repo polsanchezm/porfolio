@@ -32,7 +32,7 @@ const inProgressProjects = computed(() =>
     <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6">
       <div id="my-projects" class="m-4 p-4">
         <h1 class="flex justify-center text-center text-2xl font-bold m-4">
-          Proyectos Acabados
+          Proyectos Destacados
         </h1>
         <div
           class="grid grid-cols-1 lg:grid-cols-1 md:grid-cols-2 sm:grid-cols-2 xl:grid-cols-1 2xl:grid-cols-2 gap-4"

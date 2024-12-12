@@ -16,13 +16,12 @@
               <p>
                 ¡Hola! Soy <span class="font-semibold text-white">Pol</span>,
                 desarrollador web. Me especializo en
-                <span class="font-semibold text-white">Laravel</span> y
-                <span class="font-semibold text-white">Vue.js</span>, aunque
-                también tengo experiencia con frameworks de
-                <span class="font-semibold text-white">front-end</span>, como
-                <span class="font-semibold text-white">Angular</span> y
-                <span class="font-semibold text-white">Node.js</span>, así como
-                en <span class="font-semibold text-white">back-end</span> con
+                <span class="font-semibold text-white">VueJS</span> y
+                <span class="font-semibold text-white">Laravel</span>, aunque
+                también tengo experiencia con
+                <span class="font-semibold text-white">NextJS</span>,
+                <span class="font-semibold text-white">Angular</span>,
+                <span class="font-semibold text-white">NodeJS</span>,
                 <span class="font-semibold text-white">Symfony</span> y
                 <span class="font-semibold text-white">Django</span>. Además,
                 cuento con habilidades en tecnologías de contenedorización como
@@ -31,20 +30,13 @@
                 <br />
                 <br />
                 <span>
-                  Actualmente, estoy trabajando en un emocionante proyecto
-                  individual: una
+                  Actualmente, estoy trabajando en mi proyecto individual más
+                  grande hasta la fecha: una
                   <span class="font-semibold text-white"
                     >plataforma de streaming y videos</span
                   >
                   que busca ofrecer una experiencia enriquecedora tanto al
                   usuario individual como a sus comunidades.
-                </span>
-                <br />
-                <br />
-                <span>
-                  Me apasiona aprender y desarrollar mis habilidades en el
-                  proceso, enfrentando nuevos desafíos que me permitan seguir
-                  creciendo como profesional.
                 </span>
               </p>
             </div>
