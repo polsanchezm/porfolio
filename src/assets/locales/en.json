@@ -1,8 +1,14 @@
 {
   "projects": {
-    "finished": "Featured projects",
-    "production": "Projects in progress",
+    "content": "Featured projects",
     "list": [
+      {
+        "title": "Bonded",
+        "description": "Video and streaming platform that fosters community creation. Developed with NextJS, Laravel, and Flask.",
+        "image": "./images/bonded-logo.png",
+        "link": "https://github.com/polsanchezm/project",
+        "finished": false
+      },
       {
         "title": "Bondlog",
         "description": "Blog for the Bonded community. Built with NextJS and Laravel.",
@@ -49,13 +55,6 @@
         "link": "https://github.com/polsanchezm/ID_CARD",
         "demoLink": "https://polsanchezm.github.io/ID_CARD/",
         "finished": true
-      },
-      {
-        "title": "Bonded",
-        "description": "Video and streaming platform that fosters community creation. Developed with NextJS, Laravel, and Flask.",
-        "image": "./images/bonded-logo.png",
-        "link": "https://github.com/polsanchezm/project",
-        "finished": false
       }
     ]
   },

@@ -1,8 +1,14 @@
 {
   "projects": {
-    "finished": "Projectes destacats",
-    "production": "Projectes en progrés",
+    "content": "Projectes destacats",
     "list": [
+      {
+        "title": "Bonded",
+        "description": "Plataforma de vídeos i streaming que fomenta la creació de comunitats. Desenvolupada amb NextJS, Laravel i Flask.",
+        "image": "./images/bonded-logo.png",
+        "link": "https://github.com/polsanchezm/project",
+        "finished": false
+      },
       {
         "title": "Bondlog",
         "description": "Blog per a la comunitat Bonded. Construït amb NextJS i Laravel.",
@@ -49,13 +55,6 @@
         "link": "https://github.com/polsanchezm/ID_CARD",
         "demoLink": "https://polsanchezm.github.io/ID_CARD/",
         "finished": true
-      },
-      {
-        "title": "Bonded",
-        "description": "Plataforma de vídeos i streaming que fomenta la creació de comunitats. Desenvolupada amb NextJS, Laravel i Flask.",
-        "image": "./images/bonded-logo.png",
-        "link": "https://github.com/polsanchezm/project",
-        "finished": false
       }
     ]
   },

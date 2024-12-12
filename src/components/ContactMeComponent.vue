@@ -4,7 +4,7 @@
       id="contact-me"
       class="w-full mx-auto mt-10 bg-gray-400 rounded-lg shadow-lg p-6 text-center"
     >
-      <h2 class="text-2xl font-extrabold text-gray-900 mb-4">
+      <h2 class="text-2xl font-alfa text-gray-900 mb-4">
         {{ $t('contact.title') }}
       </h2>
 
