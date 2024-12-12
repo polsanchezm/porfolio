@@ -12,7 +12,7 @@ defineProps<{
 <template>
   <div class="flex items-center">
     <a
-      v-if="githubLink"
+      v-show="githubLink"
       :href="githubLink"
       target="_blank"
       class="cursor-pointer p-2 hover:bg-black/20 transition-all rounded-lg"
@@ -20,7 +20,7 @@ defineProps<{
       <GithubIcon class="size-8" />
     </a>
     <a
-      v-if="demoLink"
+      v-show="demoLink"
       :href="demoLink"
       target="_blank"
       class="cursor-pointer p-2 relative hover:bg-green-500/20 transition-all rounded-lg group/play"

@@ -8,19 +8,19 @@ const project = defineProps<Project>()
 
 <template>
   <article class="bg-gray-400 group/card relative overflow-hidden rounded-lg">
-    <div v-if="project.latest" class="absolute top-2 right-2 z-30">
+    <div v-show="project.latest" class="absolute top-2 right-2 z-30">
       <ProjectBadgeComponent
         text="Latest project"
         badgeColor="bg-green-600"
         noPulse
       />
     </div>
-    <div v-else-if="!project.finished" class="absolute top-2 left-2 z-30">
+    <div v-show="!project.finished" class="absolute top-2 left-2 z-30">
       <ProjectBadgeComponent text="Working on it" />
     </div>
 
     <img
-      v-if="project.image"
+      v-show="project.image"
       :src="project.image"
       class="w-full h-64 object-cover group-hover/card:scale-125 transition-all duration-1000"
       alt="Project Image"
