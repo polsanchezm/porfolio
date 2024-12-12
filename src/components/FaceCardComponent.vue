@@ -11,7 +11,10 @@
           class="w-64 h-64 mt-4 object-cover rounded-xl mx-auto"
         />
       </div>
-      <div id="personal-info" class="flex flex-col text-center items-center gap-3 mt-14">
+      <div
+        id="personal-info"
+        class="flex flex-col text-center items-center gap-3 mt-14"
+      >
         <div id="name" class="font-alfa text-xl text-gray-900">
           <h1>Pol Sánchez</h1>
         </div>
@@ -46,7 +49,7 @@
         </div>
         <div id="linkedin">
           <a
-            href="https://www.linkedin.com/in/pol-sanchez-396ba819b/"
+            href="https://www.linkedin.com/in/pol-s%C3%A1nchez-mart%C3%ADnez-396ba819b/"
             target="_blank"
             rel="noopener noreferrer"
           >
