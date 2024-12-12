@@ -6,7 +6,7 @@
     <div id="content" class="m-3 p-5">
       <div id="profile-image" class="flex justify-center lg:size-60 xl:size-60">
         <img
-          src="../assets/images/pfp.jpg"
+          src="../../public/images/pfp.webp"
           alt=""
           class="w-64 h-64 mt-4 object-cover rounded-xl mx-auto"
         />
