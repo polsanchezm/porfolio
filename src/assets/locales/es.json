@@ -1,0 +1,85 @@
+{
+  "projects": {
+    "finished": "Proyectos destacados",
+    "production": "Proyectos en progreso",
+    "list": [
+      {
+        "title": "Bondlog",
+        "description": "Blog para la comunidad Bonded. Construido con NextJS y Laravel.",
+        "image": "./images/bondlog-logo.png",
+        "link": "https://github.com/polsanchezm/Bondlog",
+        "finished": true,
+        "latest": true
+      },
+      {
+        "title": "J&P WebShop",
+        "description": "Tienda en línea para la venta de ropa. Desarrollada con Vue.js y Laravel.",
+        "image": "./images/webshop.png",
+        "link": "https://github.com/polsanchezm/J-P_WebShop",
+        "finished": true
+      },
+      {
+        "title": "Juego de Memoria",
+        "description": "Juego clásico de memoria con múltiples niveles de dificultad. Desarrollado con HTML, CSS y JavaScript puro.",
+        "image": "./images/memory.png",
+        "link": "https://github.com/polsanchezm/MemoryGame",
+        "demoLink": "https://polsanchezm.github.io/MemoryGame/",
+        "finished": true
+      },
+      {
+        "title": "Lienzo del Mundo",
+        "description": "Lienzo divertido sobre la Tierra. Desarrollado con HTML, CSS y JavaScript puro.",
+        "image": "./images/world-canvas.png",
+        "link": "https://github.com/polsanchezm/World-Canvas",
+        "demoLink": "https://polsanchezm.github.io/World-Canvas/",
+        "finished": true
+      },
+      {
+        "title": "Sistema Solar",
+        "description": "Sistema solar movible. Desarrollado con HTML y CSS.",
+        "image": "./images/solar-system.png",
+        "link": "https://github.com/polsanchezm/SolarSystem",
+        "demoLink": "https://polsanchezm.github.io/SolarSystem/",
+        "finished": true
+      },
+      {
+        "title": "DNI",
+        "description": "Imitación de un documento nacional de identidad. Desarrollado con HTML y CSS.",
+        "image": "./images/dni.png",
+        "link": "https://github.com/polsanchezm/ID_CARD",
+        "demoLink": "https://polsanchezm.github.io/ID_CARD/",
+        "finished": true
+      },
+      {
+        "title": "Bonded",
+        "description": "Plataforma de videos y streaming que fomenta la creación de comunidades. Desarrollada con NextJS, Laravel y Flask.",
+        "image": "./images/bonded-logo.png",
+        "link": "https://github.com/polsanchezm/project",
+        "finished": false
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre mí",
+    "content": "¡Hola! Soy <span class=\"font-bold text-white\">Pol</span>, un desarrollador web especializado en <span class=\"font-bold text-white\">VueJS</span> y <span class=\"font-bold text-white\">Laravel</span>, aunque también tengo experiencia con <span class=\"font-bold text-white\">NextJS</span>, <span class=\"font-bold text-white\">Angular</span>, <span class=\"font-bold text-white\">NodeJS</span>, <span class=\"font-bold text-white\">Symfony</span> y <span class=\"font-bold text-white\">Django</span>. Además, tengo habilidades en tecnologías de contenedores como <span class=\"font-bold text-white\">Docker</span> y <span class=\"font-bold text-white\">Kubernetes</span>.<br /><br /><span>Actualmente, estoy trabajando en mi proyecto en solitario más grande hasta la fecha: una <span class=\"font-bold text-white\">plataforma de videos y streaming</span> que busca ofrecer una experiencia enriquecedora para los usuarios individuales y sus comunidades.</span>"
+  },
+  "navbar": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Sobre mí",
+    "contact": "Contacto"
+  },
+  "contact": {
+    "title": "Contacta conmigo"
+  },
+  "facecard": {
+    "content": "Desarrollador Web Full Stack, especializado en VueJS y Laravel."
+  },
+  "footer": {
+    "content": "Casi todos los derechos reservados"
+  },
+  "header": {
+    "content": "<span class=\"block\">Hola,</span><span class=\"block sm:ml-16 md:ml-16 lg:ml-16 xl:ml-16\">soy Pol,</span><span class=\"block sm:ml-32 md:ml-32 lg:ml-32 xl:ml-32\">desarrollador web</span>",
+    "button": "Más sobre mí"
+  }
+}

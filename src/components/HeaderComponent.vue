@@ -4,18 +4,13 @@
   >
     <div class="max-w-3xl">
       <h1 class="text-left text-2xl md:text-6xl sm:text-4xl mb-8 font-alfa">
-        <span class="block">Hola,</span>
-        <span class="block sm:ml-16 md:ml-16 lg:ml-16 xl:ml-16">soy Pol,</span>
-
-        <span class="block sm:ml-32 md:ml-32 lg:ml-32 xl:ml-32">
-          desarrollador web
-        </span>
+        <p v-html="$t('header.content')"></p>
       </h1>
       <a
         href="#about-me"
         class="bg-white text-gray-800 hover:bg-gray-400 focus:outline-none font-alfa rounded-md text-sm md:text-lg lg:text-xl px-6 py-3 transition duration-200"
       >
-        Más sobre mí
+        {{ $t('header.button') }}
       </a>
     </div>
   </header>

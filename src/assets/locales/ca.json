@@ -1,0 +1,85 @@
+{
+  "projects": {
+    "finished": "Projectes destacats",
+    "production": "Projectes en progrés",
+    "list": [
+      {
+        "title": "Bondlog",
+        "description": "Blog per a la comunitat Bonded. Construït amb NextJS i Laravel.",
+        "image": "./images/bondlog-logo.png",
+        "link": "https://github.com/polsanchezm/Bondlog",
+        "finished": true,
+        "latest": true
+      },
+      {
+        "title": "J&P WebShop",
+        "description": "Botiga en línia per a la venda de roba. Desenvolupada amb Vue.js i Laravel.",
+        "image": "./images/webshop.png",
+        "link": "https://github.com/polsanchezm/J-P_WebShop",
+        "finished": true
+      },
+      {
+        "title": "Joc de Memòria",
+        "description": "Joc clàssic de memòria amb múltiples nivells de dificultat. Desenvolupat amb HTML, CSS i JavaScript pur.",
+        "image": "./images/memory.png",
+        "link": "https://github.com/polsanchezm/MemoryGame",
+        "demoLink": "https://polsanchezm.github.io/MemoryGame/",
+        "finished": true
+      },
+      {
+        "title": "Canvas del Món",
+        "description": "Canvas divertit sobre la Terra. Desenvolupat amb HTML, CSS i JavaScript pur.",
+        "image": "./images/world-canvas.png",
+        "link": "https://github.com/polsanchezm/World-Canvas",
+        "demoLink": "https://polsanchezm.github.io/World-Canvas/",
+        "finished": true
+      },
+      {
+        "title": "Sistema Solar",
+        "description": "Sistema solar movible. Desenvolupat amb HTML i CSS.",
+        "image": "./images/solar-system.png",
+        "link": "https://github.com/polsanchezm/SolarSystem",
+        "demoLink": "https://polsanchezm.github.io/SolarSystem/",
+        "finished": true
+      },
+      {
+        "title": "DNI",
+        "description": "Imitació d'un document nacional d'identitat. Desenvolupat amb HTML i CSS.",
+        "image": "./images/dni.png",
+        "link": "https://github.com/polsanchezm/ID_CARD",
+        "demoLink": "https://polsanchezm.github.io/ID_CARD/",
+        "finished": true
+      },
+      {
+        "title": "Bonded",
+        "description": "Plataforma de vídeos i streaming que fomenta la creació de comunitats. Desenvolupada amb NextJS, Laravel i Flask.",
+        "image": "./images/bonded-logo.png",
+        "link": "https://github.com/polsanchezm/project",
+        "finished": false
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre mi",
+    "content": "Hola! Soc <span class=\"font-bold text-white\">Pol</span>, un desenvolupador web especialitzat en <span class=\"font-bold text-white\">VueJS</span> i <span class=\"font-bold text-white\">Laravel</span>, tot i que també tinc experiència amb <span class=\"font-bold text-white\">NextJS</span>, <span class=\"font-bold text-white\">Angular</span>, <span class=\"font-bold text-white\">NodeJS</span>, <span class=\"font-bold text-white\">Symfony</span> i <span class=\"font-bold text-white\">Django</span>. A més, tenc habilitats en tecnologies de contenidors com <span class=\"font-bold text-white\">Docker</span> i <span class=\"font-bold text-white\">Kubernetes</span>.<br /><br /><span>Actualment, estic treballant en el meu projecte en solitari més gran fins avui: una <span class=\"font-bold text-white\">plataforma de vídeos i streaming</span> que cerca oferir una experiència enriquidora per als usuaris individuals i les seves comunitats.</span>"
+  },
+  "navbar": {
+    "home": "Inici",
+    "projects": "Projectes",
+    "about": "Sobre mí",
+    "contact": "Contacte"
+  },
+  "contact": {
+    "title": "Contacta amb mi"
+  },
+  "facecard": {
+    "content": "Desenvolupador Web Full Stack, especialitzat en VueJS i Laravel."
+  },
+  "footer": {
+    "content": "Quasi tots els drets reservats"
+  },
+  "header": {
+    "content": "<span class=\"block\">Hola,</span><span class=\"block sm:ml-16 md:ml-16 lg:ml-16 xl:ml-16\">soc Pol,</span><span class=\"block sm:ml-32 md:ml-32 lg:ml-32 xl:ml-32\">desenvolupador web</span>",
+    "button": "Més sobre mi"
+  }
+}

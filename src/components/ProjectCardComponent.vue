@@ -1,5 +1,9 @@
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
+import { useI18n } from 'vue-i18n'
+import es from '../assets/locales/es.json'
+import en from '../assets/locales/en.json'
+import ca from '../assets/locales/ca.json'
 
 interface Project {
   title: string
@@ -12,11 +16,27 @@ interface Project {
 }
 
 const projects = ref<Project[]>([])
+const { locale } = useI18n()
 
-onMounted(async () => {
-  const response = await fetch('/assets/projects.json')
-  projects.value = await response.json()
-})
+const loadProjects = (lang: string) => {
+  try {
+    const response = lang === 'es' ? es : lang === 'ca' ? ca : en
+    projects.value = response.projects.list.map(project => ({
+      ...project,
+      latest: project.latest ?? false,
+    }))
+  } catch (error) {
+    console.error('Error loading projects:', error)
+  }
+}
+
+watch(
+  () => locale.value,
+  newLang => {
+    loadProjects(newLang)
+  },
+  { immediate: true },
+)
 
 // Computed properties to filter finished and in-progress projects
 const finishedProjects = computed(() =>
@@ -32,7 +52,7 @@ const inProgressProjects = computed(() =>
     <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6">
       <div id="my-projects" class="m-4 p-4">
         <h1 class="flex justify-center text-center text-2xl font-bold m-4">
-          Proyectos Destacados
+          {{ $t('projects.finished') }}
         </h1>
         <div
           class="grid grid-cols-1 lg:grid-cols-1 md:grid-cols-2 sm:grid-cols-2 xl:grid-cols-1 2xl:grid-cols-2 gap-4"
@@ -111,7 +131,7 @@ const inProgressProjects = computed(() =>
 
       <div id="in-progress" class="m-4 p-4">
         <h1 class="flex justify-center text-center text-2xl font-bold m-4">
-          Proyectos En Progreso
+          {{ $t('projects.production') }}
         </h1>
         <div class="grid grid-cols-1 gap-5">
           <div

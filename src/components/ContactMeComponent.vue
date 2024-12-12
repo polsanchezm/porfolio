@@ -5,7 +5,7 @@
       class="w-full mx-auto mt-10 bg-gray-400 rounded-lg shadow-lg p-6 text-center"
     >
       <h2 class="text-2xl font-extrabold text-gray-900 mb-4">
-        Contacta conmigo
+        {{ $t('contact.title') }}
       </h2>
 
       <div class="space-y-3">

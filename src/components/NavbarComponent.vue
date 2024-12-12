@@ -1,33 +1,35 @@
-<template>
-  <header
-    class="fixed top-0 z-10 flex items-center justify-center w-full mx-auto mt-2"
-  >
-    <nav
-      class="flex px-3 text-sm font-medium rounded-full text-gray-700 justify-center items-center"
-    >
-      <a
-        v-for="link in navItems"
-        :key="link.label"
-        :href="link.url"
-        class="relative block px-2 py-2 transition hover:text-gray-300"
-        :aria-label="link.label"
-      >
-        {{ link.title }}
-      </a>
-      <ThemeToggle />
-    </nav>
-  </header>
-</template>
-
 <script setup lang="ts">
-import { onMounted, onBeforeUnmount, ref } from 'vue'
+import { onMounted, onBeforeUnmount, ref, watch } from 'vue'
+import { useI18n } from 'vue-i18n'
+import LanguageSelector from './LanguageSelector.vue'
+import es from '../assets/locales/es.json'
+import en from '../assets/locales/en.json'
+import ca from '../assets/locales/ca.json'
 
+// Accedemos al método 't' de vue-i18n para obtener las traducciones
+const { t, locale } = useI18n()
+
+// Definimos los elementos de navegación
 const navItems = ref([
-  { title: 'Inicio', label: 'inicio', url: '/#' },
-  { title: 'Sobre mí', label: 'sobre-mi', url: '/#about-me' },
-  { title: 'Proyectos', label: 'proyectos', url: '/#projects' },
-  { title: 'Contacto', label: 'contacto', url: '/#contact-me' },
+  { title: t('navbar.home'), label: 'home', url: '/#' },
+  { title: t('navbar.about'), label: 'about-me', url: '/#about-me' },
+  { title: t('navbar.projects'), label: 'projects', url: '/#projects' },
+  { title: t('navbar.contact'), label: 'contact', url: '/#contact-me' },
 ])
+
+// Observamos los cambios de idioma
+watch(
+  () => locale.value,
+  () => {
+    // Actualizamos los títulos de la barra de navegación cuando cambia el idioma
+    navItems.value = [
+      { title: t('navbar.home'), label: 'home', url: '/#' },
+      { title: t('navbar.about'), label: 'about-me', url: '/#about-me' },
+      { title: t('navbar.projects'), label: 'projects', url: '/#projects' },
+      { title: t('navbar.contact'), label: 'contact', url: '/#contact-me' },
+    ]
+  },
+)
 
 onMounted(() => {
   const sections = document.querySelectorAll('section')
@@ -74,6 +76,30 @@ onMounted(() => {
   }
 })
 </script>
+
+<template>
+  <header
+    class="fixed top-0 z-10 flex items-center justify-center w-full mx-auto mt-2"
+  >
+    <nav
+      class="flex px-3 text-sm font-medium rounded-full text-gray-700 justify-center items-center"
+    >
+      <a
+        v-for="link in navItems"
+        :key="link.label"
+        :href="link.url"
+        class="relative block px-2 py-2 transition hover:text-gray-300"
+        :aria-label="link.label"
+      >
+        {{ link.title }}
+      </a>
+
+      <LanguageSelector :es="es" :en="en" :ca="ca" />
+
+      <ThemeToggle />
+    </nav>
+  </header>
+</template>
 
 <style scoped>
 nav {

@@ -19,7 +19,9 @@
           <h1>Pol Sánchez</h1>
         </div>
         <div id="brief-description" class="font-alfa text-sm text-gray-600">
-          <p>Desarrollador web Full Stack especializado en Laravel y Vue.js</p>
+          <p>
+            {{ $t('facecard.content') }}
+          </p>
         </div>
       </div>
       <div id="socials" class="flex justify-center gap-3 mt-14">

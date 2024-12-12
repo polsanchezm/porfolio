@@ -11,34 +11,9 @@
           >
             <div class="text-lg text-gray-300 leading-relaxed">
               <h1 class="flex justify-center text-2xl font-bold m-4">
-                Sobre mí
+                {{ $t('about.title') }}
               </h1>
-              <p>
-                ¡Hola! Soy <span class="font-semibold text-white">Pol</span>,
-                desarrollador web. Me especializo en
-                <span class="font-semibold text-white">VueJS</span> y
-                <span class="font-semibold text-white">Laravel</span>, aunque
-                también tengo experiencia con
-                <span class="font-semibold text-white">NextJS</span>,
-                <span class="font-semibold text-white">Angular</span>,
-                <span class="font-semibold text-white">NodeJS</span>,
-                <span class="font-semibold text-white">Symfony</span> y
-                <span class="font-semibold text-white">Django</span>. Además,
-                cuento con habilidades en tecnologías de contenedorización como
-                <span class="font-semibold text-white">Docker</span> y
-                <span class="font-semibold text-white">Kubernetes</span>.
-                <br />
-                <br />
-                <span>
-                  Actualmente, estoy trabajando en mi proyecto individual más
-                  grande hasta la fecha: una
-                  <span class="font-semibold text-white"
-                    >plataforma de streaming y videos</span
-                  >
-                  que busca ofrecer una experiencia enriquecedora tanto al
-                  usuario individual como a sus comunidades.
-                </span>
-              </p>
+              <p v-html="$t('about.content')"></p>
             </div>
           </div>
         </main>
