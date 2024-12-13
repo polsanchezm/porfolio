@@ -162,6 +162,22 @@
         "color": "#000000"
       },
       {
+        "name": "HTML",
+        "category": "Front end",
+        "icon": "logos:html-5",
+        "proficiency": 95,
+        "description": "Lenguaje de marcado estándar para estructurar contenidos web.",
+        "color": "#e34f26"
+      },
+      {
+        "name": "CSS",
+        "category": "Front end",
+        "icon": "logos:css-3",
+        "proficiency": 80,
+        "description": "Lenguaje de estilo para diseñar y dar formato a páginas web.",
+        "color": "#1572b6"
+      },
+      {
         "name": "TailwindCSS",
         "category": "Front end",
         "icon": "logos:tailwindcss-icon",
