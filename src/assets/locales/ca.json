@@ -172,10 +172,10 @@
       {
         "name": "CSS",
         "category": "Front end",
-        "icon": "logos:css-3",
+        "icon": "fa6-brands:css",
         "proficiency": 80,
         "description": "Llenguatge d'estil per dissenyar i donar format a pàgines web.",
-        "color": "#1572b6"
+        "color": "#663399"
       },
       {
         "name": "TailwindCSS",
