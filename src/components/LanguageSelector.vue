@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import { onMounted } from 'vue'
+import type { Project } from '@/interfaces/Project'
 
 const props = defineProps<{
-  es: { projects: { finished: string; production: string; list: Array<any> } }
-  en: { projects: { finished: string; production: string; list: Array<any> } }
-  ca: { projects: { finished: string; production: string; list: Array<any> } }
+  es: { projects: { content: string; list: Project[] } }
+  en: { projects: { content: string; list: Project[] } }
+  ca: { projects: { content: string; list: Project[] } }
 }>()
 
 const { locale, setLocaleMessage } = useI18n()

@@ -1,15 +1,22 @@
 <script setup lang="ts">
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu'
 import { onMounted, onBeforeUnmount, ref, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 import LanguageSelector from './LanguageSelector.vue'
 import es from '../assets/locales/es.json'
 import en from '../assets/locales/en.json'
 import ca from '../assets/locales/ca.json'
+import { Icon } from '@iconify/vue/dist/iconify.js'
 
-// Accedemos al método 't' de vue-i18n para obtener las traducciones
 const { t, locale } = useI18n()
 
-// Definimos los elementos de navegación
 const navItems = ref([
   { title: t('navbar.home'), label: 'home', url: '/#' },
   { title: t('navbar.about'), label: 'about-me', url: '/#about-me' },
@@ -22,11 +29,9 @@ const navItems = ref([
   { title: t('navbar.contact'), label: 'contact', url: '/#contact-me' },
 ])
 
-// Observamos los cambios de idioma
 watch(
   () => locale.value,
   () => {
-    // Actualizamos los títulos de la barra de navegación cuando cambia el idioma
     navItems.value = [
       { title: t('navbar.home'), label: 'home', url: '/#' },
       { title: t('navbar.about'), label: 'about-me', url: '/#about-me' },
@@ -69,12 +74,10 @@ onMounted(() => {
     observer.observe(section)
   })
 
-  // Cleanup al desmontar
   onBeforeUnmount(() => {
     observer.disconnect()
   })
 
-  // Manejo de visibilidad
   document.onvisibilitychange = () => {
     if (document.visibilityState === 'hidden') {
       observer.disconnect()
@@ -92,19 +95,40 @@ onMounted(() => {
     class="fixed top-0 z-10 flex items-center justify-center w-full mx-auto mt-2"
   >
     <nav
-      class="flex px-3 text-sm font-medium rounded-full text-gray-700 justify-center items-center"
+      class="flex px-3 text-sm font-medium rounded-full text-gray-700 justify-center items-center align-middle"
     >
-      <a
-        v-for="link in navItems"
-        :key="link.label"
-        :href="link.url"
-        class="relative block px-2 py-2 transition hover:text-gray-300"
-        :aria-label="link.label"
-      >
-        {{ link.title }}
-      </a>
+      <div class="hidden sm:flex space-x-4">
+        <a
+          v-for="link in navItems"
+          :key="link.label"
+          :href="link.url"
+          class="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-500"
+          :aria-label="link.label"
+        >
+          {{ link.title }}
+        </a>
+        <LanguageSelector :es="es" :en="en" :ca="ca" />
+      </div>
 
-      <LanguageSelector :es="es" :en="en" :ca="ca" />
+      <DropdownMenu>
+        <DropdownMenuTrigger class="xl:hidden lg:hidden md:hidden sm:hidden">
+          <Icon icon="material-symbols:menu" class="w-6 h-6" />
+        </DropdownMenuTrigger>
+        <DropdownMenuContent>
+          <DropdownMenuLabel>Menu</DropdownMenuLabel>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem v-for="link in navItems" :key="link.label">
+            <a
+              :href="link.url"
+              class="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-500"
+              :aria-label="link.label"
+            >
+              {{ link.title }}
+            </a>
+          </DropdownMenuItem>
+          <LanguageSelector :es="es" :en="en" :ca="ca" />
+        </DropdownMenuContent>
+      </DropdownMenu>
     </nav>
   </header>
 </template>
