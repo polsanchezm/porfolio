@@ -26,7 +26,7 @@
       },
       {
         "title": "Joc de Memòria",
-        "description": "Joc clàssic Memory amb múltiples nivells de dificultat. Desenvolupat amb HTML, CSS i JavaScript pur.",
+        "description": "Joc clàssic de memòria amb múltiples nivells de dificultat. Desenvolupat amb HTML, CSS i JavaScript pur.",
         "image": "./images/memory.webp",
         "link": "https://github.com/polsanchezm/MemoryGame",
         "demoLink": "https://polsanchezm.github.io/MemoryGame/",
@@ -60,13 +60,14 @@
   },
   "about": {
     "title": "Sobre mi",
-    "content": "Hola! Soc en <span class=\"font-bold text-white\">Pol</span>, un desenvolupador web especialitzat en <span class=\"font-bold text-white\">VueJS</span> i <span class=\"font-bold text-white\">Laravel</span>, tot i que també tinc experiència amb <span class=\"font-bold text-white\">NextJS</span>, <span class=\"font-bold text-white\">Angular</span>, <span class=\"font-bold text-white\">NodeJS</span>, <span class=\"font-bold text-white\">Symfony</span> i <span class=\"font-bold text-white\">Django</span>. A més, tinc habilitats en tecnologies de contenidors com <span class=\"font-bold text-white\">Docker</span> i <span class=\"font-bold text-white\">Kubernetes</span>.<br /><br /><span>Actualment, estic treballant en el meu projecte en solitari més gran fins avui: una <span class=\"font-bold text-white\">plataforma de vídeos i streaming</span> que cerca oferir una experiència enriquidora per als usuaris individuals i les seves comunitats.</span>"
+    "content": "Hola! Soc en <span class=\"font-bold text-white\">Pol</span>, un desenvolupador web especialitzat en <span class=\"font-bold text-white\">VueJS</span> i <span class=\"font-bold text-white\">Laravel</span>, amb experiència en frameworks com <span class=\"font-bold text-white\">Angular</span>, <span class=\"font-bold text-white\">Symfony</span> i <span class=\"font-bold text-white\">Django</span>. A més, estic aprenent <span class=\"font-bold text-white\">React</span> i <span class=\"font-bold text-white\">NextJS</span> per ampliar els meus coneixements.<br /><br /><span>Actualment, estic treballant en el meu projecte en solitari més gran fins avui: una <span class=\"font-bold text-white\">plataforma de vídeos i streaming</span> que cerca oferir una experiència enriquidora per als usuaris individuals i les seves comunitats.</span>"
   },
   "navbar": {
     "home": "Inici",
     "projects": "Projectes",
     "about": "Sobre mi",
-    "contact": "Contacte"
+    "contact": "Contacte",
+    "technologies": "Tecnologies"
   },
   "contact": {
     "title": "Contacta amb mi"
@@ -84,5 +85,178 @@
   "badge": {
     "working": "En desenvolupament",
     "latest": "Últim projecte"
+  },
+  "technologies": {
+    "title": "Tecnologies amb les que he treballat",
+    "list": [
+      {
+        "name": "JavaScript",
+        "category": "Llenguatges",
+        "icon": "logos:javascript",
+        "proficiency": 70,
+        "description": "Llenguatge essencial per a aplicacions web i interfícies interactives.",
+        "color": "#f7df1e"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Llenguatges",
+        "icon": "logos:typescript-icon",
+        "proficiency": 70,
+        "description": "Superconjunt de JavaScript amb tipatge estàtic per a codi més fiable.",
+        "color": "#3178c6"
+      },
+      {
+        "name": "Python",
+        "category": "Llenguatges",
+        "icon": "logos:python",
+        "proficiency": 60,
+        "description": "Llenguatge versàtil i llegible, ideal per al desenvolupament web i scripts.",
+        "color": "#ffd141"
+      },
+      {
+        "name": "PHP",
+        "category": "Llenguatges",
+        "icon": "logos:php",
+        "proficiency": 70,
+        "description": "Llenguatge popular per a desenvolupament web i sistemes de back end.",
+        "color": "#6181b6"
+      },
+      {
+        "name": "Java",
+        "category": "Llenguatges",
+        "icon": "logos:java",
+        "proficiency": 40,
+        "description": "Llenguatge robust i multiplataforma per a aplicacions a gran escala.",
+        "color": "#5382a1"
+      },
+      {
+        "name": "VueJS",
+        "category": "Front end",
+        "icon": "logos:vue",
+        "proficiency": 70,
+        "description": "Framework JavaScript per a interfícies reactives i aplicacions d'una sola pàgina (SPA).",
+        "color": "#3fb984"
+      },
+      {
+        "name": "Angular",
+        "category": "Front end",
+        "icon": "logos:angular-icon",
+        "proficiency": 60,
+        "description": "Framework de Google per a aplicacions web d'una sola pàgina (SPA) i aplicacions grans.",
+        "color": "#e60c7b"
+      },
+      {
+        "name": "React",
+        "category": "Front end",
+        "icon": "logos:react",
+        "proficiency": 30,
+        "description": "Biblioteca per a construir interfícies interactives i components reutilitzables.",
+        "color": "#58c4dc"
+      },
+      {
+        "name": "NextJS",
+        "category": "Front end",
+        "icon": "logos:nextjs-icon",
+        "proficiency": 45,
+        "description": "Framework per a React amb renderitzat al servidor i generació de llocs estàtics.",
+        "color": "#000000"
+      },
+      {
+        "name": "TailwindCSS",
+        "category": "Front end",
+        "icon": "logos:tailwindcss-icon",
+        "proficiency": 75,
+        "description": "Framework CSS basat en utilitats per dissenyar interfícies ràpidament.",
+        "color": "#38bdf8"
+      },
+      {
+        "name": "Bootstrap",
+        "category": "Front end",
+        "icon": "logos:bootstrap",
+        "proficiency": 70,
+        "description": "Framework CSS per a dissenys responsius i ràpids.",
+        "color": "#7e13f8"
+      },
+      {
+        "name": "Laravel",
+        "category": "Back end",
+        "icon": "logos:laravel",
+        "proficiency": 75,
+        "description": "Framework PHP per a aplicacions web segures i escalables amb sintaxi neta.",
+        "color": "#ff2d20"
+      },
+      {
+        "name": "Symfony",
+        "category": "Back end",
+        "icon": "logos:symfony",
+        "proficiency": 60,
+        "description": "Framework PHP amb components reutilitzables per a aplicacions web d'alt rendiment.",
+        "color": "#131014"
+      },
+      {
+        "name": "Django",
+        "category": "Back end",
+        "icon": "logos:django-icon",
+        "proficiency": 60,
+        "description": "Framework Python per al desenvolupament ràpid d'aplicacions web amb seguretat integrada.",
+        "color": "#4c4c4c"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Back end",
+        "icon": "logos:mongodb-icon",
+        "proficiency": 75,
+        "description": "Base de dades NoSQL per a dades no estructurades i aplicacions escalables.",
+        "color": "#01ec64"
+      },
+      {
+        "name": "MySQL",
+        "category": "Back end",
+        "icon": "logos:mysql-icon",
+        "proficiency": 75,
+        "description": "Base de dades relacional popular per a aplicacions web i sistemes.",
+        "color": "#00546b"
+      },
+      {
+        "name": "Docker",
+        "category": "DevOps",
+        "icon": "logos:docker-icon",
+        "proficiency": 55,
+        "description": "Plataforma de contenidors per empaquetar i executar aplicacions de manera consistent.",
+        "color": "#1d63ed"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "DevOps",
+        "icon": "logos:kubernetes",
+        "proficiency": 15,
+        "description": "Sistema per orquestrar contenidors i gestionar aplicacions distribuïdes a gran escala.",
+        "color": "#326de6"
+      },
+      {
+        "name": "Github",
+        "category": "Altres",
+        "icon": "logos:github-icon",
+        "proficiency": 90,
+        "description": "Plataforma per a col·laboració i control de versions de codi.",
+        "color": "#080808"
+      },
+      {
+        "name": "Postman",
+        "category": "Altres",
+        "icon": "logos:postman-icon",
+        "proficiency": 70,
+        "description": "Eina per provar APIs i fer sol·licituds HTTP de manera eficient.",
+        "color": "#ff6c37"
+      },
+      {
+        "name": "WordPress",
+        "category": "Altres",
+        "icon": "logos:wordpress-icon",
+        "proficiency": 80,
+        "description": "CMS popular per crear i gestionar llocs web de manera senzilla.",
+        "color": "#404953"
+      }
+    ]
   }
 }

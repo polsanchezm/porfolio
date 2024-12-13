@@ -26,7 +26,7 @@
       },
       {
         "title": "Juego de Memoria",
-        "description": "Juego clásico Memory con múltiples niveles de dificultad. Desarrollado con HTML, CSS y JavaScript puro.",
+        "description": "Juego clásico de memoria con múltiples niveles de dificultad. Desarrollado con HTML, CSS y JavaScript puro.",
         "image": "./images/memory.webp",
         "link": "https://github.com/polsanchezm/MemoryGame",
         "demoLink": "https://polsanchezm.github.io/MemoryGame/",
@@ -66,7 +66,8 @@
     "home": "Inicio",
     "projects": "Proyectos",
     "about": "Sobre mí",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "technologies": "Tecnologías"
   },
   "contact": {
     "title": "Contacta conmigo"
@@ -84,5 +85,178 @@
   "badge": {
     "working": "En desarrollo",
     "latest": "Último proyecto"
+  },
+  "technologies": {
+    "title": "Tecnologías con las que he trabajado",
+    "list": [
+      {
+        "name": "JavaScript",
+        "category": "Lenguajes",
+        "icon": "logos:javascript",
+        "proficiency": 70,
+        "description": "Lenguaje esencial para aplicaciones web e interfaces interactivas.",
+        "color": "#f7df1e"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Lenguajes",
+        "icon": "logos:typescript-icon",
+        "proficiency": 70,
+        "description": "Superconjunto de JavaScript con tipado estático para código más fiable.",
+        "color": "#3178c6"
+      },
+      {
+        "name": "Python",
+        "category": "Lenguajes",
+        "icon": "logos:python",
+        "proficiency": 60,
+        "description": "Lenguaje versátil y legible, ideal para desarrollo web y scripts.",
+        "color": "#ffd141"
+      },
+      {
+        "name": "PHP",
+        "category": "Lenguajes",
+        "icon": "logos:php",
+        "proficiency": 70,
+        "description": "Lenguaje popular para desarrollo web y sistemas de backend.",
+        "color": "#6181b6"
+      },
+      {
+        "name": "Java",
+        "category": "Lenguajes",
+        "icon": "logos:java",
+        "proficiency": 40,
+        "description": "Lenguaje robusto y multiplataforma para aplicaciones a gran escala.",
+        "color": "#5382a1"
+      },
+      {
+        "name": "VueJS",
+        "category": "Front end",
+        "icon": "logos:vue",
+        "proficiency": 70,
+        "description": "Framework JavaScript para interfaces reactivas y aplicaciones de una sola página (SPA).",
+        "color": "#3fb984"
+      },
+      {
+        "name": "Angular",
+        "category": "Front end",
+        "icon": "logos:angular-icon",
+        "proficiency": 60,
+        "description": "Framework de Google para aplicaciones web de una sola página (SPA) y aplicaciones grandes.",
+        "color": "#e60c7b"
+      },
+      {
+        "name": "React",
+        "category": "Front end",
+        "icon": "logos:react",
+        "proficiency": 30,
+        "description": "Biblioteca para construir interfaces interactivas y componentes reutilizables.",
+        "color": "#58c4dc"
+      },
+      {
+        "name": "NextJS",
+        "category": "Front end",
+        "icon": "logos:nextjs-icon",
+        "proficiency": 45,
+        "description": "Framework para React con renderizado en servidor y generación de sitios estáticos.",
+        "color": "#000000"
+      },
+      {
+        "name": "TailwindCSS",
+        "category": "Front end",
+        "icon": "logos:tailwindcss-icon",
+        "proficiency": 75,
+        "description": "Framework CSS basado en utilidades para diseñar interfaces rápidamente.",
+        "color": "#38bdf8"
+      },
+      {
+        "name": "Bootstrap",
+        "category": "Front end",
+        "icon": "logos:bootstrap",
+        "proficiency": 70,
+        "description": "Framework CSS para diseños responsivos y rápidos.",
+        "color": "#7e13f8"
+      },
+      {
+        "name": "Laravel",
+        "category": "Back end",
+        "icon": "logos:laravel",
+        "proficiency": 75,
+        "description": "Framework PHP para aplicaciones web seguras y escalables con sintaxis limpia.",
+        "color": "#ff2d20"
+      },
+      {
+        "name": "Symfony",
+        "category": "Back end",
+        "icon": "logos:symfony",
+        "proficiency": 60,
+        "description": "Framework PHP con componentes reutilizables para aplicaciones web de alto rendimiento.",
+        "color": "#131014"
+      },
+      {
+        "name": "Django",
+        "category": "Back end",
+        "icon": "logos:django-icon",
+        "proficiency": 60,
+        "description": "Framework Python para desarrollo rápido de aplicaciones web con seguridad integrada.",
+        "color": "#4c4c4c"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Back end",
+        "icon": "logos:mongodb-icon",
+        "proficiency": 75,
+        "description": "Base de datos NoSQL para datos no estructurados y aplicaciones escalables.",
+        "color": "#01ec64"
+      },
+      {
+        "name": "MySQL",
+        "category": "Back end",
+        "icon": "logos:mysql-icon",
+        "proficiency": 75,
+        "description": "Base de datos relacional popular para aplicaciones web y sistemas.",
+        "color": "#00546b"
+      },
+      {
+        "name": "Docker",
+        "category": "DevOps",
+        "icon": "logos:docker-icon",
+        "proficiency": 55,
+        "description": "Plataforma de contenedores para empaquetar y ejecutar aplicaciones de manera consistente.",
+        "color": "#1d63ed"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "DevOps",
+        "icon": "logos:kubernetes",
+        "proficiency": 15,
+        "description": "Sistema para orquestar contenedores y gestionar aplicaciones distribuidas a gran escala.",
+        "color": "#326de6"
+      },
+      {
+        "name": "Github",
+        "category": "Otros",
+        "icon": "logos:github-icon",
+        "proficiency": 90,
+        "description": "Plataforma para colaboración y control de versiones de código.",
+        "color": "#080808"
+      },
+      {
+        "name": "Postman",
+        "category": "Otros",
+        "icon": "logos:postman-icon",
+        "proficiency": 70,
+        "description": "Herramienta para probar APIs y realizar solicitudes HTTP de forma eficiente.",
+        "color": "#ff6c37"
+      },
+      {
+        "name": "WordPress",
+        "category": "Otros",
+        "icon": "logos:wordpress-icon",
+        "proficiency": 80,
+        "description": "CMS popular para crear y gestionar sitios web de manera sencilla.",
+        "color": "#404953"
+      }
+    ]
   }
 }

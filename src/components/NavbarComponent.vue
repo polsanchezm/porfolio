@@ -14,6 +14,11 @@ const navItems = ref([
   { title: t('navbar.home'), label: 'home', url: '/#' },
   { title: t('navbar.about'), label: 'about-me', url: '/#about-me' },
   { title: t('navbar.projects'), label: 'projects', url: '/#projects' },
+  {
+    title: t('navbar.technologies'),
+    label: 'technologies',
+    url: '/#technologies',
+  },
   { title: t('navbar.contact'), label: 'contact', url: '/#contact-me' },
 ])
 
@@ -26,6 +31,11 @@ watch(
       { title: t('navbar.home'), label: 'home', url: '/#' },
       { title: t('navbar.about'), label: 'about-me', url: '/#about-me' },
       { title: t('navbar.projects'), label: 'projects', url: '/#projects' },
+      {
+        title: t('navbar.technologies'),
+        label: 'technologies',
+        url: '/#technologies',
+      },
       { title: t('navbar.contact'), label: 'contact', url: '/#contact-me' },
     ]
   },
@@ -95,8 +105,6 @@ onMounted(() => {
       </a>
 
       <LanguageSelector :es="es" :en="en" :ca="ca" />
-
-      <ThemeToggle />
     </nav>
   </header>
 </template>

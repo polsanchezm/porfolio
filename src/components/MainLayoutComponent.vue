@@ -6,6 +6,7 @@ import ProjectGrid from '../components/ProjectGridComponent.vue'
 import AboutMe from '../components/AboutMeComponent.vue'
 import Navbar from '../components/NavbarComponent.vue'
 import ContactMe from '../components/ContactMeComponent.vue'
+import TechnologiesComponent from '../components/TechnologyListComponent.vue'
 </script>
 
 <template>
@@ -26,6 +27,7 @@ import ContactMe from '../components/ContactMeComponent.vue'
       </div>
       <AboutMe />
       <ProjectGrid />
+      <TechnologiesComponent />
       <ContactMe />
       <Footer />
     </section>

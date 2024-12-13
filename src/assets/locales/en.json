@@ -66,7 +66,8 @@
     "home": "Home",
     "projects": "Projects",
     "about": "About me",
-    "contact": "Contact"
+    "contact": "Contact",
+    "technologies": "Technologies"
   },
   "contact": {
     "title": "Contact me"
@@ -84,5 +85,178 @@
   "badge": {
     "working": "Working on it",
     "latest": "Latest project"
+  },
+  "technologies": {
+    "title": "Technologies I have worked with",
+    "list": [
+      {
+        "name": "JavaScript",
+        "category": "Languages",
+        "icon": "logos:javascript",
+        "proficiency": 70,
+        "description": "Essential language for web applications and interactive interfaces.",
+        "color": "#f7df1e"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Languages",
+        "icon": "logos:typescript-icon",
+        "proficiency": 70,
+        "description": "Superset of JavaScript with static typing for more reliable code.",
+        "color": "#3178c6"
+      },
+      {
+        "name": "Python",
+        "category": "Languages",
+        "icon": "logos:python",
+        "proficiency": 60,
+        "description": "Versatile and readable language, ideal for web development and scripting.",
+        "color": "#ffd141"
+      },
+      {
+        "name": "PHP",
+        "category": "Languages",
+        "icon": "logos:php",
+        "proficiency": 70,
+        "description": "Popular language for web development and backend systems.",
+        "color": "#6181b6"
+      },
+      {
+        "name": "Java",
+        "category": "Languages",
+        "icon": "logos:java",
+        "proficiency": 40,
+        "description": "Robust and cross-platform language for large-scale applications.",
+        "color": "#5382a1"
+      },
+      {
+        "name": "VueJS",
+        "category": "Front end",
+        "icon": "logos:vue",
+        "proficiency": 70,
+        "description": "JavaScript framework for reactive interfaces and single-page applications (SPA).",
+        "color": "#3fb984"
+      },
+      {
+        "name": "Angular",
+        "category": "Front end",
+        "icon": "logos:angular-icon",
+        "proficiency": 60,
+        "description": "Google framework for single-page web applications (SPA) and large applications.",
+        "color": "#e60c7b"
+      },
+      {
+        "name": "React",
+        "category": "Front end",
+        "icon": "logos:react",
+        "proficiency": 30,
+        "description": "Library for building interactive interfaces and reusable components.",
+        "color": "#58c4dc"
+      },
+      {
+        "name": "NextJS",
+        "category": "Front end",
+        "icon": "logos:nextjs-icon",
+        "proficiency": 45,
+        "description": "Framework for React with server-side rendering and static site generation.",
+        "color": "#000000"
+      },
+      {
+        "name": "TailwindCSS",
+        "category": "Front end",
+        "icon": "logos:tailwindcss-icon",
+        "proficiency": 75,
+        "description": "Utility-first CSS framework for quickly designing interfaces.",
+        "color": "#38bdf8"
+      },
+      {
+        "name": "Bootstrap",
+        "category": "Front end",
+        "icon": "logos:bootstrap",
+        "proficiency": 70,
+        "description": "CSS framework for responsive and fast designs.",
+        "color": "#7e13f8"
+      },
+      {
+        "name": "Laravel",
+        "category": "Back end",
+        "icon": "logos:laravel",
+        "proficiency": 75,
+        "description": "PHP framework for secure and scalable web applications with clean syntax.",
+        "color": "#ff2d20"
+      },
+      {
+        "name": "Symfony",
+        "category": "Back end",
+        "icon": "logos:symfony",
+        "proficiency": 60,
+        "description": "PHP framework with reusable components for high-performance web applications.",
+        "color": "#131014"
+      },
+      {
+        "name": "Django",
+        "category": "Back end",
+        "icon": "logos:django-icon",
+        "proficiency": 60,
+        "description": "Python framework for rapid web application development with integrated security.",
+        "color": "#4c4c4c"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Back end",
+        "icon": "logos:mongodb-icon",
+        "proficiency": 75,
+        "description": "NoSQL database for unstructured data and scalable applications.",
+        "color": "#01ec64"
+      },
+      {
+        "name": "MySQL",
+        "category": "Back end",
+        "icon": "logos:mysql-icon",
+        "proficiency": 75,
+        "description": "Popular relational database for web applications and systems.",
+        "color": "#00546b"
+      },
+      {
+        "name": "Docker",
+        "category": "DevOps",
+        "icon": "logos:docker-icon",
+        "proficiency": 55,
+        "description": "Container platform for packaging and running applications consistently.",
+        "color": "#1d63ed"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "DevOps",
+        "icon": "logos:kubernetes",
+        "proficiency": 15,
+        "description": "System for orchestrating containers and managing distributed applications at scale.",
+        "color": "#326de6"
+      },
+      {
+        "name": "Github",
+        "category": "Others",
+        "icon": "logos:github-icon",
+        "proficiency": 90,
+        "description": "Platform for collaboration and version control of code.",
+        "color": "#080808"
+      },
+      {
+        "name": "Postman",
+        "category": "Others",
+        "icon": "logos:postman-icon",
+        "proficiency": 70,
+        "description": "Tool for testing APIs and making HTTP requests efficiently.",
+        "color": "#ff6c37"
+      },
+      {
+        "name": "WordPress",
+        "category": "Others",
+        "icon": "logos:wordpress-icon",
+        "proficiency": 80,
+        "description": "Popular CMS for easily creating and managing websites.",
+        "color": "#404953"
+      }
+    ]
   }
 }
