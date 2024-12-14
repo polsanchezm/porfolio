@@ -54,7 +54,7 @@ const groupedTechnologies = computed(() => {
         {{ t('technologies.title') }}
       </h1>
 
-      <div class="grid gap-16 ">
+      <div class="grid gap-16">
         <div
           v-for="(techs, category) in groupedTechnologies"
           :key="category"
@@ -65,7 +65,7 @@ const groupedTechnologies = computed(() => {
           >
             {{ category }}
           </h2>
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="grid grid-cols-4 gap-6 justify-center">
             <TechnologyCardComponent
               v-for="tech in techs"
               :key="tech.name"
