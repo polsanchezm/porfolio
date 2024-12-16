@@ -183,7 +183,7 @@
         "name": "MySQL",
         "category": "Back end",
         "icon": "logos:mysql-icon",
-        "color": "#00546b"
+        "color": "#4C9BAF"
       },
       {
         "name": "Docker",
@@ -213,7 +213,7 @@
         "name": "WordPress",
         "category": "Altres",
         "icon": "logos:wordpress-icon",
-        "color": "#404953"
+        "color": "#667B7F"
       }
     ]
   }
