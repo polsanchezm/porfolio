@@ -16,7 +16,7 @@ const props = defineProps<{
       <Icon :icon="technology.icon" />
     </div>
     <div>
-      <h3 class="text-xl text-white">{{ technology.name }}</h3>
+      <h3 class="text-xl text-white font-semibold">{{ technology.name }}</h3>
     </div>
   </div>
 </template>
