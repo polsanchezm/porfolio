@@ -60,7 +60,7 @@ import ResumeIcon from '@/components/icons/ResumeIcon.vue'
           </a>
         </div>
         <div id="email">
-          <a href="mailto: pol.sm.dev">
+          <a href="mailto: pol.sm.dev@gmail.com">
             <MailIcon class="w-8 h-8 mr-4 text-black" />
           </a>
         </div>
