@@ -65,7 +65,9 @@ const groupedTechnologies = computed(() => {
           >
             {{ category }}
           </h2>
-          <div class="grid grid-cols-4 gap-6 justify-center">
+          <div
+            class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center"
+          >
             <TechnologyCardComponent
               v-for="tech in techs"
               :key="tech.name"
