@@ -14,6 +14,7 @@
         "description": "Blog per a la comunitat de Bonded. Desenvolupat amb NextJS i Laravel.",
         "image": "./images/bondlog-logo.webp",
         "link": "https://github.com/polsanchezm/Bondlog",
+        "demoLink": "https://bondlog.vercel.app/",
         "finished": true,
         "latest": true
       },

@@ -13,6 +13,7 @@
         "title": "Bondlog",
         "description": "Blog for the Bonded community. Built with NextJS and Laravel.",
         "image": "./images/bondlog-logo.webp",
+        "demoLink": "https://bondlog.vercel.app/",
         "link": "https://github.com/polsanchezm/Bondlog",
         "finished": true,
         "latest": true
