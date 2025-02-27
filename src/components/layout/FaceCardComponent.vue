@@ -34,7 +34,7 @@ import ResumeIcon from '@/components/icons/ResumeIcon.vue'
       <div id="socials" class="flex justify-center gap-3 mt-14">
         <div id="resume">
           <a
-            href="https://drive.google.com/file/d/1DT6rLQ_6t3PN9z4WxazWKc-V5Lq8W9sD/view?usp=sharing"
+            href="https://drive.google.com/file/d/19LWrcd8_HO1vK3mu_uGNYnvQHHQSl0Be/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
