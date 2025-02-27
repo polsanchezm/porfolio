@@ -7,7 +7,8 @@
         "description": "Plataforma de videos y streaming que fomenta la creación de comunidades. Desarrollada con NextJS, Laravel y Flask.",
         "image": "./images/bonded-logo.webp",
         "link": "https://github.com/polsanchezm/project",
-        "finished": false
+        "finished": false,
+        "show": false
       },
       {
         "title": "Bondlog",
@@ -15,15 +16,17 @@
         "image": "./images/bondlog-logo.webp",
         "demoLink": "https://bondlog.vercel.app/",
         "link": "https://github.com/polsanchezm/Bondlog",
-        "finished": true,
-        "latest": true
+        "finished": false,
+        "latest": true,
+        "show": true
       },
       {
         "title": "J&P WebShop",
         "description": "E-commerce para la venta de ropa. Desarrollada con Vue.js y Laravel.",
         "image": "./images/webshop.webp",
         "link": "https://github.com/polsanchezm/J-P_WebShop",
-        "finished": true
+        "finished": true,
+        "show": true
       },
       {
         "title": "Juego de Memoria",
@@ -31,7 +34,8 @@
         "image": "./images/memory.webp",
         "link": "https://github.com/polsanchezm/MemoryGame",
         "demoLink": "https://polsanchezm.github.io/MemoryGame/",
-        "finished": true
+        "finished": true,
+        "show": true
       },
       {
         "title": "Lienzo del Mundo",
@@ -39,7 +43,8 @@
         "image": "./images/world-canvas.webp",
         "link": "https://github.com/polsanchezm/World-Canvas",
         "demoLink": "https://polsanchezm.github.io/World-Canvas/",
-        "finished": true
+        "finished": true,
+        "show": true
       },
       {
         "title": "Sistema Solar",
@@ -47,7 +52,8 @@
         "image": "./images/solar-system.webp",
         "link": "https://github.com/polsanchezm/SolarSystem",
         "demoLink": "https://polsanchezm.github.io/SolarSystem/",
-        "finished": true
+        "finished": true,
+        "show": true
       },
       {
         "title": "DNI",
@@ -55,13 +61,15 @@
         "image": "./images/dni.webp",
         "link": "https://github.com/polsanchezm/ID_CARD",
         "demoLink": "https://polsanchezm.github.io/ID_CARD/",
-        "finished": true
+        "finished": true,
+        "show": true
       }
     ]
   },
   "about": {
     "title": "Sobre mí",
-    "content": "¡Hola! Soy <span class=\"font-bold text-white\">Pol</span>, un desarrollador web especializado en <span class=\"font-bold text-white\">VueJS</span> y <span class=\"font-bold text-white\">Laravel</span>, aunque también tengo experiencia con <span class=\"font-bold text-white\">NextJS</span>, <span class=\"font-bold text-white\">Angular</span>, <span class=\"font-bold text-white\">NodeJS</span>, <span class=\"font-bold text-white\">Symfony</span> y <span class=\"font-bold text-white\">Django</span>. Además, tengo habilidades en tecnologías de contenedores como <span class=\"font-bold text-white\">Docker</span> y <span class=\"font-bold text-white\">Kubernetes</span>.<br /><br /><span>Actualmente, estoy trabajando en mi proyecto en solitario más grande hasta la fecha: una <span class=\"font-bold text-white\">plataforma de videos y streaming</span> que busca ofrecer una experiencia enriquecedora para los usuarios individuales y sus comunidades.</span>"
+    "no-show-content": "<br /><span>Actualmente, estoy trabajando en mi proyecto en solitario más grande hasta la fecha: una <span class=\"font-bold text-white\">plataforma de videos y streaming</span> que busca ofrecer una experiencia enriquecedora para los usuarios individuales y sus comunidades.</span>",
+    "content": "¡Hola! Soy <span class=\"font-bold text-white\">Pol</span>, un desarrollador web especializado en <span class=\"font-bold text-white\">VueJS</span> y <span class=\"font-bold text-white\">Laravel</span>, aunque también tengo experiencia con <span class=\"font-bold text-white\">NextJS</span>, <span class=\"font-bold text-white\">Angular</span>, <span class=\"font-bold text-white\">NodeJS</span>, <span class=\"font-bold text-white\">Symfony</span> y <span class=\"font-bold text-white\">Django</span>. Además, tengo habilidades en tecnologías de contenedores como <span class=\"font-bold text-white\">Docker</span> y <span class=\"font-bold text-white\">Kubernetes</span>.<br />"
   },
   "navbar": {
     "home": "Inicio",

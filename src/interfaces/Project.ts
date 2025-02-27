@@ -6,4 +6,5 @@ export interface Project {
   demoLink?: string
   latest?: boolean
   finished: boolean
+  show: boolean
 }

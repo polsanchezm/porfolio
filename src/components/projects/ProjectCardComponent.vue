@@ -7,7 +7,10 @@ const project = defineProps<Project>()
 </script>
 
 <template>
-  <article class="bg-gray-400 group/card relative overflow-hidden rounded-lg">
+  <article
+    v-show="project.show"
+    class="bg-gray-400 group/card relative overflow-hidden rounded-lg"
+  >
     <div v-show="project.latest" class="absolute top-2 right-2 z-30">
       <ProjectBadgeComponent
         :text="$t('badge.latest')"

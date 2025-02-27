@@ -7,7 +7,8 @@
         "description": "Video and streaming platform that fosters community creation. Developed with NextJS, Laravel, and Flask.",
         "image": "./images/bonded-logo.webp",
         "link": "https://github.com/polsanchezm/project",
-        "finished": false
+        "finished": false,
+        "show": false
       },
       {
         "title": "Bondlog",
@@ -15,15 +16,17 @@
         "image": "./images/bondlog-logo.webp",
         "demoLink": "https://bondlog.vercel.app/",
         "link": "https://github.com/polsanchezm/Bondlog",
-        "finished": true,
-        "latest": true
+        "finished": false,
+        "latest": true,
+        "show": true
       },
       {
         "title": "J&P WebShop",
         "description": "E-commerce for clothing sales. Developed with Vue.js and Laravel.",
         "image": "./images/webshop.webp",
         "link": "https://github.com/polsanchezm/J-P_WebShop",
-        "finished": true
+        "finished": true,
+        "show": true
       },
       {
         "title": "Memory Game",
@@ -31,7 +34,8 @@
         "image": "./images/memory.webp",
         "link": "https://github.com/polsanchezm/MemoryGame",
         "demoLink": "https://polsanchezm.github.io/MemoryGame/",
-        "finished": true
+        "finished": true,
+        "show": true
       },
       {
         "title": "World Canvas",
@@ -39,7 +43,8 @@
         "image": "./images/world-canvas.webp",
         "link": "https://github.com/polsanchezm/World-Canvas",
         "demoLink": "https://polsanchezm.github.io/World-Canvas/",
-        "finished": true
+        "finished": true,
+        "show": true
       },
       {
         "title": "Solar System",
@@ -47,7 +52,8 @@
         "image": "./images/solar-system.webp",
         "link": "https://github.com/polsanchezm/SolarSystem",
         "demoLink": "https://polsanchezm.github.io/SolarSystem/",
-        "finished": true
+        "finished": true,
+        "show": true
       },
       {
         "title": "DNI",
@@ -55,13 +61,15 @@
         "image": "./images/dni.webp",
         "link": "https://github.com/polsanchezm/ID_CARD",
         "demoLink": "https://polsanchezm.github.io/ID_CARD/",
-        "finished": true
+        "finished": true,
+        "show": true
       }
     ]
   },
   "about": {
     "title": "About me",
-    "content": "Hi! I'm <span class=\"font-bold text-white\">Pol</span>, a web developer specialised in <span class=\"font-bold text-white\">VueJS</span> and <span class=\"font-bold text-white\">Laravel</span>, although I also have experience with <span class=\"font-bold text-white\">NextJS</span>, <span class=\"font-bold text-white\">Angular</span>, <span class=\"font-bold text-white\">NodeJS</span>, <span class=\"font-bold text-white\">Symfony</span>, and <span class=\"font-bold text-white\">Django</span>. Additionally, I have skills in containerization technologies like <span class=\"font-bold text-white\">Docker</span> and <span class=\"font-bold text-white\">Kubernetes</span>.<br /><br /><span>Currently, I am working on my biggest solo project to date: a <span class=\"font-bold text-white\">video and streaming platform</span> that aims to provide an enriching experience for both individual users and their communities.</span>"
+    "no-show-content": "<br /><span>Currently, I am working on my biggest solo project to date: a <span class=\"font-bold text-white\">video and streaming platform</span> that aims to provide an enriching experience for both individual users and their communities.</span>",
+    "content": "Hi! I'm <span class=\"font-bold text-white\">Pol</span>, a web developer specialised in <span class=\"font-bold text-white\">VueJS</span> and <span class=\"font-bold text-white\">Laravel</span>, although I also have experience with <span class=\"font-bold text-white\">NextJS</span>, <span class=\"font-bold text-white\">Angular</span>, <span class=\"font-bold text-white\">NodeJS</span>, <span class=\"font-bold text-white\">Symfony</span>, and <span class=\"font-bold text-white\">Django</span>. Additionally, I have skills in containerization technologies like <span class=\"font-bold text-white\">Docker</span> and <span class=\"font-bold text-white\">Kubernetes</span>.<br />"
   },
   "navbar": {
     "home": "Home",
