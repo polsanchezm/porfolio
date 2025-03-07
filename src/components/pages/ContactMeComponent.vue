@@ -40,7 +40,7 @@ import LinkedinIcon from '@/components/icons/LinkedinIcon.vue'
           <LinkedinIcon class="w-6 h-6 mr-4 text-black" />
           <a
             class="text-gray-900 hover:text-gray-50 font-bold"
-            href="https://www.linkedin.com/in/pol-sanchez-396ba819b/"
+            href="https://www.linkedin.com/in/polsanchezm"
             target="_blank"
             rel="noopener noreferrer"
           >

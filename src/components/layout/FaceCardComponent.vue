@@ -43,7 +43,7 @@ import ResumeIcon from '@/components/icons/ResumeIcon.vue'
         </div>
         <div id="linkedin">
           <a
-            href="https://www.linkedin.com/in/pol-s%C3%A1nchez-mart%C3%ADnez-396ba819b/"
+            href="https://www.linkedin.com/in/polsanchezm"
             target="_blank"
             rel="noopener noreferrer"
           >
