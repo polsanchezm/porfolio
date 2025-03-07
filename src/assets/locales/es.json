@@ -69,7 +69,7 @@
   "about": {
     "title": "Sobre mí",
     "no-show-content": "<br /><span>Actualmente, estoy trabajando en mi proyecto en solitario más grande hasta la fecha: una <span class=\"font-bold text-white\">plataforma de videos y streaming</span> que busca ofrecer una experiencia enriquecedora para los usuarios individuales y sus comunidades.</span>",
-    "content": "¡Hola! Soy <span class=\"font-bold text-white\">Pol</span>, un desarrollador web especializado en <span class=\"font-bold text-white\">VueJS</span> y <span class=\"font-bold text-white\">Laravel</span>, aunque también tengo experiencia con <span class=\"font-bold text-white\">NextJS</span>, <span class=\"font-bold text-white\">Angular</span>, <span class=\"font-bold text-white\">NodeJS</span>, <span class=\"font-bold text-white\">Symfony</span> y <span class=\"font-bold text-white\">Django</span>. Además, tengo habilidades en tecnologías de contenedores como <span class=\"font-bold text-white\">Docker</span> y <span class=\"font-bold text-white\">Kubernetes</span>.<br />"
+    "content": "¡Hola! Soy <span class=\"font-bold text-white\">Pol</span>, desarrollador de aplicaciones web con experiencia en <span class=\"font-bold text-white\">VueJS</span> y <span class=\"font-bold text-white\">NextJS</span>, aunque también tengo experiencia con <span class=\"font-bold text-white\">Angular</span>, <span class=\"font-bold text-white\">Laravel</span>, <span class=\"font-bold text-white\">NodeJS</span>, <span class=\"font-bold text-white\">Symfony</span> y <span class=\"font-bold text-white\">Django</span>.<br /><br />Me encanta estar al día con las últimas tendencias y asumir nuevos desafíos que impulsen mi crecimiento profesional.<br />Además de mi lado tecnológico, disfruto mucho de la música y el mundo audiovisual, lo que aporta un toque creativo a cada proyecto.<br /><br />Creo firmemente en la colaboración y el intercambio de ideas para dar vida a soluciones innovadoras. Mi objetivo es combinar la parte técnica con la parte artística, logrando resultados que conecten con las personas y generen un valor real."
   },
   "navbar": {
     "home": "Inicio",
@@ -82,13 +82,13 @@
     "title": "Contacta conmigo"
   },
   "facecard": {
-    "content": "Desarrollador Web Full Stack, especializado en VueJS y Laravel."
+    "content": "Desarrollador Web Front-end, especializado en VueJS y NextJS."
   },
   "footer": {
     "content": "Casi todos los derechos reservados"
   },
   "header": {
-    "content": "<span class=\"block\">Hola,</span><span class=\"block sm:ml-16 md:ml-16 lg:ml-16 xl:ml-16\">soy Pol,</span><span class=\"block sm:ml-32 md:ml-32 lg:ml-32 xl:ml-32\">desarrollador web</span>",
+    "content": "<span class=\"block\">Hola,</span><span class=\"block sm:ml-16 md:ml-16 lg:ml-16 xl:ml-16\">Soy Pol,</span><span class=\"block sm:ml-32 md:ml-32 lg:ml-32 xl:ml-32\">Desarrollador Web</span><span class=\"block sm:ml-32 md:ml-32 lg:ml-32 xl:ml-32\">Front-end</span>",
     "button": "Más sobre mí"
   },
   "badge": {
@@ -124,49 +124,49 @@
       },
       {
         "name": "VueJS",
-        "category": "Front end",
+        "category": "Front-end",
         "icon": "logos:vue",
         "color": "#3fb984"
       },
       {
         "name": "NextJS",
-        "category": "Front end",
+        "category": "Front-end",
         "icon": "logos:nextjs-icon",
         "color": "#000000"
       },
       {
         "name": "React",
-        "category": "Front end",
+        "category": "Front-end",
         "icon": "logos:react",
         "color": "#58c4dc"
       },
       {
         "name": "Angular",
-        "category": "Front end",
+        "category": "Front-end",
         "icon": "logos:angular-icon",
         "color": "#e60c7b"
       },
       {
         "name": "HTML",
-        "category": "Front end",
+        "category": "Front-end",
         "icon": "logos:html-5",
         "color": "#e34f26"
       },
       {
         "name": "CSS",
-        "category": "Front end",
+        "category": "Front-end",
         "icon": "fa6-brands:css",
         "color": "#663399"
       },
       {
         "name": "TailwindCSS",
-        "category": "Front end",
+        "category": "Front-end",
         "icon": "logos:tailwindcss-icon",
         "color": "#38bdf8"
       },
       {
         "name": "Bootstrap",
-        "category": "Front end",
+        "category": "Front-end",
         "icon": "logos:bootstrap",
         "color": "#7e13f8"
       },
