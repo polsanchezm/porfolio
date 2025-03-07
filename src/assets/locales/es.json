@@ -111,16 +111,16 @@
         "color": "#3178c6"
       },
       {
-        "name": "Python",
-        "category": "Lenguajes",
-        "icon": "logos:python",
-        "color": "#ffd141"
-      },
-      {
         "name": "PHP",
         "category": "Lenguajes",
         "icon": "logos:php",
         "color": "#6181b6"
+      },
+      {
+        "name": "Python",
+        "category": "Lenguajes",
+        "icon": "logos:python",
+        "color": "#ffd141"
       },
       {
         "name": "VueJS",
@@ -129,10 +129,10 @@
         "color": "#3fb984"
       },
       {
-        "name": "Angular",
+        "name": "NextJS",
         "category": "Front end",
-        "icon": "logos:angular-icon",
-        "color": "#e60c7b"
+        "icon": "logos:nextjs-icon",
+        "color": "#000000"
       },
       {
         "name": "React",
@@ -141,10 +141,10 @@
         "color": "#58c4dc"
       },
       {
-        "name": "NextJS",
+        "name": "Angular",
         "category": "Front end",
-        "icon": "logos:nextjs-icon",
-        "color": "#000000"
+        "icon": "logos:angular-icon",
+        "color": "#e60c7b"
       },
       {
         "name": "HTML",
