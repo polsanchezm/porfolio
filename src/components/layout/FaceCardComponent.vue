@@ -4,7 +4,6 @@ import LinkedinIcon from '@/components/icons/LinkedinIcon.vue'
 import MailIcon from '@/components/icons/MailIcon.vue'
 import ResumeIcon from '@/components/icons/ResumeIcon.vue'
 import BlueskyIcon from '@/components/icons/BlueskyIcon.vue'
-import XTwittericon from '../icons/XTwittericon.vue'
 </script>
 
 <template>
@@ -35,7 +34,7 @@ import XTwittericon from '../icons/XTwittericon.vue'
       </div>
       <div
         id="socials"
-        class="grid grid-cols-3 justify-items-center gap-5 mt-14"
+        class="grid grid-cols-5 justify-items-center gap-5 mt-14"
       >
         <div id="resume">
           <a
@@ -76,15 +75,6 @@ import XTwittericon from '../icons/XTwittericon.vue'
             rel="noopener noreferrer"
           >
             <BlueskyIcon class="w-8 h-8 text-black" />
-          </a>
-        </div>
-        <div id="twitter">
-          <a
-            href="https://x.com/enpolpetit"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <XTwittericon class="w-8 h-8 text-black" />
           </a>
         </div>
       </div>
