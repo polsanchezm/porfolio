@@ -134,22 +134,16 @@
         "color": "#3fb984"
       },
       {
-        "name": "NextJS",
-        "category": "Front end",
-        "icon": "logos:nextjs-icon",
-        "color": "#000000"
-      },
-      {
         "name": "React",
         "category": "Front end",
         "icon": "logos:react",
         "color": "#58c4dc"
       },
       {
-        "name": "Angular",
+        "name": "NextJS",
         "category": "Front end",
-        "icon": "logos:angular-icon",
-        "color": "#e60c7b"
+        "icon": "logos:nextjs-icon",
+        "color": "#000000"
       },
       {
         "name": "HTML",
@@ -170,22 +164,16 @@
         "color": "#38bdf8"
       },
       {
-        "name": "Bootstrap",
-        "category": "Front end",
-        "icon": "logos:bootstrap",
-        "color": "#7e13f8"
-      },
-      {
         "name": "Laravel",
         "category": "Back end",
         "icon": "logos:laravel",
         "color": "#ff2d20"
       },
       {
-        "name": "Django",
+        "name": "Express",
         "category": "Back end",
-        "icon": "logos:django-icon",
-        "color": "#4c4c4c"
+        "icon": "devicon:express",
+        "color": "#000000"
       },
       {
         "name": "MongoDB",
@@ -222,12 +210,6 @@
         "category": "Otros",
         "icon": "logos:postman-icon",
         "color": "#ff6c37"
-      },
-      {
-        "name": "WordPress",
-        "category": "Otros",
-        "icon": "logos:wordpress-icon",
-        "color": "#667B7F"
       }
     ]
   }
