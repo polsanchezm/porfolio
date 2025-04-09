@@ -40,7 +40,7 @@ onMounted(() => {
       name="lang"
       id="lang"
       @change="changeLanguage"
-      class="bg-transparent p-2 rounded-md focus:outline-none"
+      class="bg-transparent p-2 focus:outline-none"
     >
       <option value="es" :selected="locale === 'es'">Español</option>
       <option value="ca" :selected="locale === 'ca'">Català</option>

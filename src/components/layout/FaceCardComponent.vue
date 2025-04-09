@@ -9,14 +9,14 @@ import BlueskyIcon from '@/components/icons/BlueskyIcon.vue'
 <template>
   <div
     id="main-box"
-    class="bg-gray-400 rounded-xl shadow-md overflow-hidden max-w-xs mx-auto"
+    class="bg-gray-400 rounded-3xl shadow-md overflow-hidden max-w-xs mx-auto"
   >
     <div id="content" class="m-3 p-5">
       <div id="profile-image" class="flex justify-center xl:size-60">
         <img
           src="/images/pfp.webp"
           alt=""
-          class="w-64 h-64 mt-4 object-cover rounded-xl mx-auto"
+          class="w-64 h-64 mt-4 object-cover rounded-3xl mx-auto"
         />
       </div>
       <div
@@ -42,7 +42,9 @@ import BlueskyIcon from '@/components/icons/BlueskyIcon.vue'
             target="_blank"
             rel="noopener noreferrer"
           >
-            <ResumeIcon class="w-8 h-8 text-black" />
+            <div class="hover:bg-black/20 p-3 rounded-full">
+              <ResumeIcon class="w-8 h-8 hover:stroke-white" />
+            </div>
           </a>
         </div>
         <div id="linkedin">
@@ -51,7 +53,9 @@ import BlueskyIcon from '@/components/icons/BlueskyIcon.vue'
             target="_blank"
             rel="noopener noreferrer"
           >
-            <LinkedinIcon class="w-8 h-8 text-black" />
+            <div class="hover:bg-black/20 p-3 rounded-full">
+              <LinkedinIcon class="w-8 h-8 hover:fill-white" />
+            </div>
           </a>
         </div>
         <div id="github">
@@ -60,12 +64,16 @@ import BlueskyIcon from '@/components/icons/BlueskyIcon.vue'
             target="_blank"
             rel="noopener noreferrer"
           >
-            <GithubIcon class="w-8 h-8 text-black" />
+            <div class="hover:bg-black/20 p-3 rounded-full">
+              <GithubIcon class="w-8 h-8 hover:fill-white" />
+            </div>
           </a>
         </div>
         <div id="email">
           <a href="mailto: pol.sm.dev@gmail.com">
-            <MailIcon class="w-8 h-8 text-black" />
+            <div class="hover:bg-black/20 p-3 rounded-full">
+              <MailIcon class="w-8 h-8 hover:fill-white" />
+            </div>
           </a>
         </div>
         <div id="bsky">
@@ -74,7 +82,9 @@ import BlueskyIcon from '@/components/icons/BlueskyIcon.vue'
             target="_blank"
             rel="noopener noreferrer"
           >
-            <BlueskyIcon class="w-8 h-8 text-black" />
+            <div class="hover:bg-black/20 p-3 rounded-full">
+              <BlueskyIcon class="w-8 h-8 hover:fill-white" />
+            </div>
           </a>
         </div>
       </div>

@@ -9,7 +9,7 @@ const project = defineProps<Project>()
 <template>
   <article
     v-show="project.show"
-    class="bg-gray-400 group/card relative overflow-hidden rounded-lg"
+    class="bg-gray-400 group/card relative overflow-hidden rounded-3xl"
   >
     <div v-show="project.latest" class="absolute top-2 right-2 z-30">
       <ProjectBadgeComponent
@@ -30,7 +30,7 @@ const project = defineProps<Project>()
     />
 
     <div
-      class="-bottom-full group-hover/card:bottom-0 duration-300 w-full absolute transition-all bg-gray-600 p-4 rounded-t-lg flex"
+      class="-bottom-full group-hover/card:bottom-0 duration-300 w-full absolute transition-all bg-gray-600 p-4 rounded-t-3xl flex"
     >
       <div>
         <p class="text-xl font-alfa">{{ project.title }}</p>

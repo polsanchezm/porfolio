@@ -9,14 +9,13 @@ const props = defineProps<{
 
 <template>
   <div
-    class="text-center bg-gray-800 justify-items-center rounded-lg p-8 shadow-lg transform transition-all duration-300 hover:translate-y-[-5px] hover:shadow-xl border-x-4"
-    :style="{ borderColor: technology.color }"
+    class="text-center bg-gray-900 justify-items-center rounded-3xl p-8 transition-transform shadow-lg duration-300 hover:translate-y-[-5px] hover:shadow-2xl"
   >
-    <div class="text-3xl m-2" :style="{ color: technology.color }">
+    <div class="text-4xl m-2" :style="{ color: technology.color }">
       <Icon :icon="technology.icon" />
     </div>
     <div>
-      <h3 class="text-xl text-white font-semibold">{{ technology.name }}</h3>
+      <h3 class="text-2xl text-white font-bold">{{ technology.name }}</h3>
     </div>
   </div>
 </template>

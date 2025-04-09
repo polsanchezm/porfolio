@@ -8,7 +8,7 @@
       </h1>
       <a
         href="#about-me"
-        class="bg-white text-gray-800 hover:bg-gray-400 focus:outline-none font-alfa rounded-md text-sm md:text-lg lg:text-xl px-6 py-3 transition duration-200"
+        class="bg-white text-gray-800 hover:bg-gray-400 focus:outline-none font-alfa rounded-full text-sm md:text-lg lg:text-xl px-6 py-3 transition duration-200"
       >
         {{ $t('header.button') }}
       </a>
