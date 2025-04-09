@@ -202,8 +202,10 @@
       {
         "name": "Github",
         "category": "Altres",
-        "icon": "logos:github-icon",
-        "color": "#080808"
+        "icon": "",
+        "git_icon": true,
+        "color": "#ffffff",
+        "fill": "white"
       },
       {
         "name": "Postman",
