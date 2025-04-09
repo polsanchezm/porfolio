@@ -3,6 +3,8 @@ import GithubIcon from '@/components/icons/GithubIcon.vue'
 import LinkedinIcon from '@/components/icons/LinkedinIcon.vue'
 import MailIcon from '@/components/icons/MailIcon.vue'
 import ResumeIcon from '@/components/icons/ResumeIcon.vue'
+import BlueskyIcon from '@/components/icons/BlueskyIcon.vue'
+import XTwittericon from '../icons/XTwittericon.vue'
 </script>
 
 <template>
@@ -11,7 +13,7 @@ import ResumeIcon from '@/components/icons/ResumeIcon.vue'
     class="bg-gray-400 rounded-xl shadow-md overflow-hidden max-w-xs mx-auto"
   >
     <div id="content" class="m-3 p-5">
-      <div id="profile-image" class="flex justify-center lg:size-60 xl:size-60">
+      <div id="profile-image" class="flex justify-center xl:size-60">
         <img
           src="/images/pfp.webp"
           alt=""
@@ -31,14 +33,17 @@ import ResumeIcon from '@/components/icons/ResumeIcon.vue'
           </p>
         </div>
       </div>
-      <div id="socials" class="flex justify-center gap-3 mt-14">
+      <div
+        id="socials"
+        class="grid grid-cols-3 justify-items-center gap-5 mt-14"
+      >
         <div id="resume">
           <a
             href="https://drive.google.com/file/d/19LWrcd8_HO1vK3mu_uGNYnvQHHQSl0Be/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <ResumeIcon class="w-8 h-8 mr-4 text-black" />
+            <ResumeIcon class="w-8 h-8 text-black" />
           </a>
         </div>
         <div id="linkedin">
@@ -47,7 +52,7 @@ import ResumeIcon from '@/components/icons/ResumeIcon.vue'
             target="_blank"
             rel="noopener noreferrer"
           >
-            <LinkedinIcon class="w-8 h-8 mr-4 text-black" />
+            <LinkedinIcon class="w-8 h-8 text-black" />
           </a>
         </div>
         <div id="github">
@@ -56,12 +61,30 @@ import ResumeIcon from '@/components/icons/ResumeIcon.vue'
             target="_blank"
             rel="noopener noreferrer"
           >
-            <GithubIcon class="w-8 h-8 mr-4 text-black" />
+            <GithubIcon class="w-8 h-8 text-black" />
           </a>
         </div>
         <div id="email">
           <a href="mailto: pol.sm.dev@gmail.com">
-            <MailIcon class="w-8 h-8 mr-4 text-black" />
+            <MailIcon class="w-8 h-8 text-black" />
+          </a>
+        </div>
+        <div id="bsky">
+          <a
+            href="https://bsky.app/profile/enpolpetit.bsky.social"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BlueskyIcon class="w-8 h-8 text-black" />
+          </a>
+        </div>
+        <div id="twitter">
+          <a
+            href="https://x.com/enpolpetit"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <XTwittericon class="w-8 h-8 text-black" />
           </a>
         </div>
       </div>

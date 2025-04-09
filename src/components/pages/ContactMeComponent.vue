@@ -3,6 +3,7 @@ import MailIcon from '@/components/icons/MailIcon.vue'
 import GithubIcon from '@/components/icons/GithubIcon.vue'
 import LinkedinIcon from '@/components/icons/LinkedinIcon.vue'
 import BlueskyIcon from '@/components/icons/BlueskyIcon.vue'
+import XTwittericon from '../icons/XTwittericon.vue'
 </script>
 
 <template>
@@ -57,6 +58,17 @@ import BlueskyIcon from '@/components/icons/BlueskyIcon.vue'
             rel="noopener noreferrer"
           >
             @enpolpetit.bsky.social
+          </a>
+        </div>
+        <div class="flex justify-center">
+          <XTwittericon class="w-6 h-6 mr-4 text-black" />
+          <a
+            class="text-gray-900 hover:text-gray-50 font-bold"
+            href="https://x.com/enpolpetit"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @enpolpetit
           </a>
         </div>
       </div>

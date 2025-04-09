@@ -129,49 +129,49 @@
       },
       {
         "name": "VueJS",
-        "category": "Front-end",
+        "category": "Front end",
         "icon": "logos:vue",
         "color": "#3fb984"
       },
       {
         "name": "NextJS",
-        "category": "Front-end",
+        "category": "Front end",
         "icon": "logos:nextjs-icon",
         "color": "#000000"
       },
       {
         "name": "React",
-        "category": "Front-end",
+        "category": "Front end",
         "icon": "logos:react",
         "color": "#58c4dc"
       },
       {
         "name": "Angular",
-        "category": "Front-end",
+        "category": "Front end",
         "icon": "logos:angular-icon",
         "color": "#e60c7b"
       },
       {
         "name": "HTML",
-        "category": "Front-end",
+        "category": "Front end",
         "icon": "logos:html-5",
         "color": "#e34f26"
       },
       {
         "name": "CSS",
-        "category": "Front-end",
+        "category": "Front end",
         "icon": "fa6-brands:css",
         "color": "#663399"
       },
       {
         "name": "TailwindCSS",
-        "category": "Front-end",
+        "category": "Front end",
         "icon": "logos:tailwindcss-icon",
         "color": "#38bdf8"
       },
       {
         "name": "Bootstrap",
-        "category": "Front-end",
+        "category": "Front end",
         "icon": "logos:bootstrap",
         "color": "#7e13f8"
       },
