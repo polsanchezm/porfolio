@@ -2,6 +2,7 @@
 import MailIcon from '@/components/icons/MailIcon.vue'
 import GithubIcon from '@/components/icons/GithubIcon.vue'
 import LinkedinIcon from '@/components/icons/LinkedinIcon.vue'
+import BlueskyIcon from '@/components/icons/BlueskyIcon.vue'
 </script>
 
 <template>
@@ -45,6 +46,17 @@ import LinkedinIcon from '@/components/icons/LinkedinIcon.vue'
             rel="noopener noreferrer"
           >
             Pol Sánchez
+          </a>
+        </div>
+        <div class="flex justify-center">
+          <BlueskyIcon class="w-6 h-6 mr-4 text-black" />
+          <a
+            class="text-gray-900 hover:text-gray-50 font-bold"
+            href="https://bsky.app/profile/enpolpetit.bsky.social"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @enpolpetit.bsky.social
           </a>
         </div>
       </div>

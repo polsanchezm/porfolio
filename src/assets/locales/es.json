@@ -11,13 +11,18 @@
         "show": false
       },
       {
+        "title": "Music App",
+        "description": "Aplicación para reproducir música, similar a Spotify. Desarrollada con React, Express y MongoDB.",
+        "image": "./images/musicapp.webp",
+        "finished": false,
+        "show": true
+      },
+      {
         "title": "Bondlog",
         "description": "Blog para la comunidad de Bonded. Construido con NextJS y Laravel.",
         "image": "./images/bondlog-logo.webp",
-        "demoLink": "https://bondlog.vercel.app/",
         "link": "https://github.com/polsanchezm/Bondlog",
-        "finished": false,
-        "latest": true,
+        "finished": true,
         "show": true
       },
       {
@@ -69,7 +74,7 @@
   "about": {
     "title": "Sobre mí",
     "no-show-content": "<br /><span>Actualmente, estoy trabajando en mi proyecto en solitario más grande hasta la fecha: una <span class=\"font-bold text-white\">plataforma de videos y streaming</span> que busca ofrecer una experiencia enriquecedora para los usuarios individuales y sus comunidades.</span>",
-    "content": "¡Hola! Soy <span class=\"font-bold text-white\">Pol</span>, desarrollador de aplicaciones web con experiencia en <span class=\"font-bold text-white\">VueJS</span> y <span class=\"font-bold text-white\">NextJS</span>, aunque también tengo experiencia con <span class=\"font-bold text-white\">Angular</span>, <span class=\"font-bold text-white\">Laravel</span>, <span class=\"font-bold text-white\">NodeJS</span>, <span class=\"font-bold text-white\">Symfony</span> y <span class=\"font-bold text-white\">Django</span>.<br /><br />Me encanta estar al día con las últimas tendencias y asumir nuevos desafíos que impulsen mi crecimiento profesional.<br />Además de mi lado tecnológico, disfruto mucho de la música y el mundo audiovisual, lo que aporta un toque creativo a cada proyecto.<br /><br />Creo firmemente en la colaboración y el intercambio de ideas para dar vida a soluciones innovadoras. Mi objetivo es combinar la parte técnica con la parte artística, logrando resultados que conecten con las personas y generen un valor real."
+    "content": "¡Hola! Soy <span class=\"font-bold text-white\">Pol</span>, desarrollador de aplicaciones web con experiencia en <span class=\"font-bold text-white\">VueJS</span> y <span class=\"font-bold text-white\">React</span>, aunque también tengo experiencia con <span class=\"font-bold text-white\">NextJS</span>, <span class=\"font-bold text-white\">Angular</span>, <span class=\"font-bold text-white\">Laravel</span>, <span class=\"font-bold text-white\">Express</span>.<br /><br />Me encanta estar al día con las últimas tendencias y asumir nuevos desafíos que impulsen mi crecimiento profesional.<br />Además de mi lado tecnológico, disfruto mucho de la música y el mundo audiovisual, lo que aporta un toque creativo a cada proyecto.<br /><br />Creo firmemente en la colaboración y el intercambio de ideas para dar vida a soluciones innovadoras. Mi objetivo es combinar la parte técnica con la parte artística, logrando resultados que conecten con las personas y generen un valor real."
   },
   "navbar": {
     "home": "Inicio",
@@ -82,7 +87,7 @@
     "title": "Contacta conmigo"
   },
   "facecard": {
-    "content": "Desarrollador Web Front-end, especializado en VueJS y NextJS."
+    "content": "Desarrollador Web Front-end, especializado en VueJS y React."
   },
   "footer": {
     "content": "Casi todos los derechos reservados"
