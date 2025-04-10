@@ -74,10 +74,10 @@ html {
 
 @layer base {
   * {
-    @apply border-border;
+    box-sizing: border-box;
+    padding: 0;
   }
   body {
-    @apply bg-background text-foreground;
     @apply bg-gradient-to-b from-gray-900 to-gray-500;
   }
 }
