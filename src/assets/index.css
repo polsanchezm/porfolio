@@ -78,5 +78,6 @@ html {
   }
   body {
     @apply bg-background text-foreground;
+    @apply bg-gradient-to-b from-gray-900 to-gray-500;
   }
 }
