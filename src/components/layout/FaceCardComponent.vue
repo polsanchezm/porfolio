@@ -3,7 +3,6 @@ import GithubIcon from '@/components/icons/GithubIcon.vue'
 import LinkedinIcon from '@/components/icons/LinkedinIcon.vue'
 import MailIcon from '@/components/icons/MailIcon.vue'
 import ResumeIcon from '@/components/icons/ResumeIcon.vue'
-import BlueskyIcon from '@/components/icons/BlueskyIcon.vue'
 </script>
 
 <template>
@@ -34,27 +33,12 @@ import BlueskyIcon from '@/components/icons/BlueskyIcon.vue'
       </div>
       <div
         id="socials"
-        class="grid grid-cols-5 justify-items-center gap-5 mt-14"
+        class="grid grid-cols-4 justify-items-center gap-5 mt-14"
       >
-        <div id="resume">
-          <a
-            href="https://drive.google.com/file/d/19LWrcd8_HO1vK3mu_uGNYnvQHHQSl0Be/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        <div id="email">
+          <a href="mailto: pol.sm.dev@gmail.com">
             <div class="hover:bg-black/20 p-3 rounded-full">
-              <ResumeIcon class="w-8 h-8 hover:stroke-white" />
-            </div>
-          </a>
-        </div>
-        <div id="linkedin">
-          <a
-            href="https://www.linkedin.com/in/polsanchezm"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div class="hover:bg-black/20 p-3 rounded-full">
-              <LinkedinIcon class="w-8 h-8 hover:fill-white" />
+              <MailIcon class="w-8 h-8 hover:fill-white" />
             </div>
           </a>
         </div>
@@ -69,21 +53,25 @@ import BlueskyIcon from '@/components/icons/BlueskyIcon.vue'
             </div>
           </a>
         </div>
-        <div id="email">
-          <a href="mailto: pol.sm.dev@gmail.com">
-            <div class="hover:bg-black/20 p-3 rounded-full">
-              <MailIcon class="w-8 h-8 hover:fill-white" />
-            </div>
-          </a>
-        </div>
-        <div id="bsky">
+        <div id="linkedin">
           <a
-            href="https://bsky.app/profile/enpolpetit.bsky.social"
+            href="https://www.linkedin.com/in/polsanchezm"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div class="hover:bg-black/20 p-3 rounded-full">
-              <BlueskyIcon class="w-8 h-8 hover:fill-white" />
+              <LinkedinIcon class="w-8 h-8 hover:fill-white" />
+            </div>
+          </a>
+        </div>
+        <div id="resume">
+          <a
+            href="https://drive.google.com/file/d/19LWrcd8_HO1vK3mu_uGNYnvQHHQSl0Be/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="hover:bg-black/20 p-3 rounded-full">
+              <ResumeIcon class="w-8 h-8 hover:stroke-white" />
             </div>
           </a>
         </div>

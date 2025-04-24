@@ -2,7 +2,7 @@
 import MailIcon from '@/components/icons/MailIcon.vue'
 import GithubIcon from '@/components/icons/GithubIcon.vue'
 import LinkedinIcon from '@/components/icons/LinkedinIcon.vue'
-import BlueskyIcon from '@/components/icons/BlueskyIcon.vue'
+import ResumeIcon from '@/components/icons/ResumeIcon.vue'
 </script>
 
 <template>
@@ -25,6 +25,17 @@ import BlueskyIcon from '@/components/icons/BlueskyIcon.vue'
             pol.sm.dev@gmail.com
           </a>
         </div>
+        <div class="flex justify-center">
+          <a
+            class="text-gray-900 hover:text-gray-50 font-bold flex hover:bg-black/20 px-3 py-2 rounded-full"
+            href="https://www.linkedin.com/in/polsanchezm"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <LinkedinIcon class="w-6 h-6 mr-4 hover:fill-gray-50" />
+            Pol Sánchez
+          </a>
+        </div>
 
         <div class="flex justify-center">
           <a
@@ -41,23 +52,12 @@ import BlueskyIcon from '@/components/icons/BlueskyIcon.vue'
         <div class="flex justify-center">
           <a
             class="text-gray-900 hover:text-gray-50 font-bold flex hover:bg-black/20 px-3 py-2 rounded-full"
-            href="https://www.linkedin.com/in/polsanchezm"
+            href="https://drive.google.com/file/d/19LWrcd8_HO1vK3mu_uGNYnvQHHQSl0Be/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <LinkedinIcon class="w-6 h-6 mr-4 hover:fill-gray-50" />
-            Pol Sánchez
-          </a>
-        </div>
-        <div class="flex justify-center">
-          <a
-            class="text-gray-900 hover:text-gray-50 font-bold flex hover:bg-black/20 px-3 py-2 rounded-full"
-            href="https://bsky.app/profile/enpolpetit.bsky.social"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <BlueskyIcon class="w-6 h-6 mr-4 hover:fill-gray-50" />
-            @enpolpetit.bsky.social
+            <ResumeIcon class="w-6 h-6 mr-4 hover:stroke-white" />
+            Curriculum
           </a>
         </div>
       </div>
