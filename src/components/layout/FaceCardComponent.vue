@@ -3,7 +3,7 @@ import GithubIcon from '@/components/icons/GithubIcon.vue'
 import LinkedinIcon from '@/components/icons/LinkedinIcon.vue'
 import MailIcon from '@/components/icons/MailIcon.vue'
 import ResumeIcon from '@/components/icons/ResumeIcon.vue'
-import MusicComponent from '../reproductor/MusicComponent.vue'
+import MusicComponent from '@/components/music/MusicComponent.vue'
 </script>
 
 <template>
