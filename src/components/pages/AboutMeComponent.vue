@@ -16,10 +16,9 @@
                 >
                   {{ $t('about.title') }}
                 </h1>
-                <p
-                  class="text-gray-500 font-patua p-12"
-                  v-html="$t('about.content')"
-                ></p>
+                <p class="text-gray-500 font-patua p-12">
+                  <span v-html="$t('about.content')"></span>
+                </p>
               </div>
             </div>
           </div>
