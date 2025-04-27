@@ -19,7 +19,7 @@ import TechnologiesComponent from '@/components/technologies/TechnologyListCompo
         <FaceCard />
       </aside>
 
-      <section>
+      <section class="p-6">
         <Header />
         <div class="xl:hidden lg:flex">
           <FaceCard />

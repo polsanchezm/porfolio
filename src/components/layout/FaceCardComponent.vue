@@ -3,6 +3,7 @@ import GithubIcon from '@/components/icons/GithubIcon.vue'
 import LinkedinIcon from '@/components/icons/LinkedinIcon.vue'
 import MailIcon from '@/components/icons/MailIcon.vue'
 import ResumeIcon from '@/components/icons/ResumeIcon.vue'
+import MusicComponent from '../reproductor/MusicComponent.vue'
 </script>
 
 <template>
@@ -11,13 +12,15 @@ import ResumeIcon from '@/components/icons/ResumeIcon.vue'
     class="bg-gray-400 rounded-3xl shadow-md overflow-hidden max-w-xs mx-auto"
   >
     <div id="content" class="m-3 p-5">
-      <div id="profile-image" class="flex justify-center xl:size-60">
+      <MusicComponent />
+      <div id="profile-image" class="flex justify-center">
         <img
           src="/images/pfp.webp"
-          alt=""
+          alt="Foto Pol Sánchez"
           class="w-64 h-64 mt-4 object-cover rounded-3xl mx-auto"
         />
       </div>
+
       <div
         id="personal-info"
         class="flex flex-col text-center items-center gap-3 mt-14"
@@ -31,6 +34,7 @@ import ResumeIcon from '@/components/icons/ResumeIcon.vue'
           </p>
         </div>
       </div>
+
       <div
         id="socials"
         class="grid grid-cols-4 justify-items-center gap-5 mt-14"
