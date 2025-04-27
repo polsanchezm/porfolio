@@ -12,12 +12,12 @@
             >
               <div class="bg-gray-950 rounded-3xl p-6 m-6 leading-relaxed">
                 <h1
-                  class="flex justify-center text-gray-400 text-2xl font-alfa m-4"
+                  class="flex justify-center text-gray-300 text-2xl font-alfa m-4"
                 >
                   {{ $t('about.title') }}
                 </h1>
                 <p
-                  class="text-gray-600 font-patua p-12"
+                  class="text-gray-500 font-patua p-12"
                   v-html="$t('about.content')"
                 ></p>
               </div>

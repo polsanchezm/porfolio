@@ -41,7 +41,7 @@ onMounted(() => {
           <span
             ref="title"
             :class="[
-              'font-patua text-lg text-gray-400 whitespace-nowrap',
+              'font-patua text-lg text-gray-300 whitespace-nowrap',
               isTitleOverflowing ? 'animate-marquee' : '',
             ]"
           >
@@ -50,7 +50,7 @@ onMounted(() => {
           <span
             ref="artist"
             :class="[
-              'font-patua text-base text-gray-600 whitespace-nowrap',
+              'font-patua text-base text-gray-400 whitespace-nowrap',
               isArtistOverflowing ? 'animate-marquee2' : '',
             ]"
           >

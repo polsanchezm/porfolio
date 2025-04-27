@@ -25,10 +25,10 @@ import MusicComponent from '@/components/music/MusicComponent.vue'
           id="personal-info"
           class="flex flex-col text-center items-center gap-3 mt-4 p-6"
         >
-          <div id="name" class="font-alfa text-xl text-gray-400">
+          <div id="name" class="font-alfa text-xl text-gray-300">
             <h1>Pol Sánchez</h1>
           </div>
-          <div id="brief-description" class="font-patua text-gray-600">
+          <div id="brief-description" class="font-patua text-gray-400">
             <p>
               {{ $t('facecard.content') }}
             </p>

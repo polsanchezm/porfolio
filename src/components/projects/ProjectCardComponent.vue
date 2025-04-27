@@ -33,8 +33,8 @@ const project = defineProps<Project>()
       class="-bottom-full group-hover/card:bottom-0 duration-300 w-full absolute transition-all bg-gray-950 p-4 rounded-t-3xl flex"
     >
       <div class="flex flex-col">
-        <p class="text-xl font-alfa text-gray-400">{{ project.title }}</p>
-        <p class="leading-tight text-sm font-patua text-gray-600">
+        <p class="text-xl font-alfa text-gray-300">{{ project.title }}</p>
+        <p class="leading-tight text-sm font-patua text-gray-400">
           {{ project.description }}
         </p>
       </div>
