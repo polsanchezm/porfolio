@@ -31,7 +31,7 @@ onMounted(() => {
         <img
           :src="randomSong.cover"
           :alt="'Cover ' + randomSong.title"
-          class="w-full h-full object-cover"
+          class="w-full h-full object-cover animate-spin"
         />
       </div>
       <div
