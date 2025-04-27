@@ -15,22 +15,22 @@ defineProps<{
       v-show="githubLink"
       :href="githubLink"
       target="_blank"
-      class="cursor-pointer p-2 hover:bg-black/20 transition-all rounded-full"
+      class="cursor-pointer p-2 hover:bg-white/20 transition-all rounded-full"
     >
-      <GithubIcon class="size-8 fill-white" />
+      <GithubIcon class="size-8 fill-gray-400" />
     </a>
     <a
       v-show="demoLink"
       :href="demoLink"
       target="_blank"
-      class="cursor-pointer p-2 relative hover:bg-black/20 transition-all rounded-full group/play"
+      class="cursor-pointer p-2 relative hover:bg-white/20 transition-all rounded-full group/play"
     >
       <div class="size-8"></div>
       <PlayIcon
-        class="opacity-100 group-hover/play:opacity-0 absolute top-2 left-2 size-8 transition-opacity stroke-white"
+        class="opacity-100 group-hover/play:opacity-0 absolute top-2 left-2 size-8 transition-opacity stroke-gray-400"
       />
       <PlaySolidIcon
-        class="opacity-0 group-hover/play:opacity-100 absolute top-2 left-2 size-8 transition-opacity stroke-white fill-white"
+        class="opacity-0 group-hover/play:opacity-100 absolute top-2 left-2 size-8 transition-opacity stroke-gray-400 fill-gray-400"
       />
     </a>
   </div>

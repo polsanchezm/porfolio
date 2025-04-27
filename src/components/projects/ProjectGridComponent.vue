@@ -33,7 +33,7 @@ watch(
 
 <template>
   <div id="projects" class="m-4 p-4">
-    <h1 class="text-center text-gray-300 text-2xl font-alfa mb-6">
+    <h1 class="text-center text-gray-300 border-b-4 border-gray-400 pb-4 w-1/2 mx-auto text-2xl font-alfa mb-6">
       {{ $t('projects.content') }}
     </h1>
 

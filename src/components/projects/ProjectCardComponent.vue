@@ -30,11 +30,13 @@ const project = defineProps<Project>()
     />
 
     <div
-      class="-bottom-full group-hover/card:bottom-0 duration-300 w-full absolute transition-all bg-gray-600 p-4 rounded-t-3xl flex"
+      class="-bottom-full group-hover/card:bottom-0 duration-300 w-full absolute transition-all bg-gray-950 p-4 rounded-t-3xl flex"
     >
-      <div class="flex flex-col text-white">
-        <p class="text-xl font-alfa">{{ project.title }}</p>
-        <p class="leading-tight text-sm">{{ project.description }}</p>
+      <div class="flex flex-col">
+        <p class="text-xl font-alfa text-gray-400">{{ project.title }}</p>
+        <p class="leading-tight text-sm font-patua text-gray-600">
+          {{ project.description }}
+        </p>
       </div>
       <ProjectLinksComponent
         :githubLink="project.link"

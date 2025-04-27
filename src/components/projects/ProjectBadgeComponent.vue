@@ -9,7 +9,7 @@ defineProps<{
 <template>
   <div
     :class="[
-      'rounded-full z-30 py-0.5 px-2 text-white text-sm font-semibold',
+      'rounded-full z-30 py-0.5 px-2 text-gray-300 text-sm font-semibold',
       badgeColor || 'bg-red-600',
       !noPulse && 'animate-pulse',
     ]"

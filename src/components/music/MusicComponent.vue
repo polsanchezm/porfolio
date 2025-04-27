@@ -25,9 +25,9 @@ onMounted(() => {
 <template>
   <div id="song-day" class="flex items-center justify-center">
     <div
-      class="flex bg-gray-950 rounded-3xl p-2 w-64 h-24 justify-between items-center"
+      class="flex bg-gray-950 rounded-full py-2 px-4 w-64 h-24 justify-between items-center"
     >
-      <div class="w-16 h-16 overflow-hidden rounded-2xl m-2 flex-shrink-0">
+      <div class="w-16 h-16 overflow-hidden rounded-full m-2 flex-shrink-0">
         <img
           :src="randomSong.cover"
           :alt="'Cover ' + randomSong.title"
@@ -41,7 +41,7 @@ onMounted(() => {
           <span
             ref="title"
             :class="[
-              'font-alfa text-md text-gray-400 whitespace-nowrap',
+              'font-patua text-lg text-gray-400 whitespace-nowrap',
               isTitleOverflowing ? 'animate-marquee' : '',
             ]"
           >
@@ -50,7 +50,7 @@ onMounted(() => {
           <span
             ref="artist"
             :class="[
-              'font-alfa text-sm text-gray-600 whitespace-nowrap',
+              'font-patua text-base text-gray-600 whitespace-nowrap',
               isArtistOverflowing ? 'animate-marquee2' : '',
             ]"
           >
@@ -62,9 +62,9 @@ onMounted(() => {
         <a
           :href="randomSong.link"
           target="_blank"
-          class="cursor-pointer p-2 hover:bg-black/20 transition-all rounded-full group/play"
+          class="cursor-pointer p-2 hover:bg-white/20 transition-all rounded-full"
         >
-          <PlaySolidIcon class="size-8 fill-white stroke-white" />
+          <PlaySolidIcon class="size-8 stroke-gray-400 fill-gray-400" />
         </a>
       </div>
     </div>

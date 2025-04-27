@@ -95,7 +95,7 @@ onMounted(() => {
     class="fixed top-0 z-50 flex items-center justify-center w-full mx-auto mt-2"
   >
     <nav
-      class="flex px-3 text-sm font-medium rounded-full text-gray-700 justify-center items-center align-middle"
+      class="flex px-3 text-sm font-patua font-medium rounded-full text-gray-700 justify-center items-center align-middle"
     >
       <div class="hidden sm:flex space-x-4">
         <a

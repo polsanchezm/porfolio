@@ -61,7 +61,7 @@ const groupedTechnologies = computed(() => {
           class="space-y-8"
         >
           <h2
-            class="text-2xl text-gray-300 font-alfa border-b-4 border-gray-800 pb-4 text-center w-1/2 mx-auto"
+            class="text-2xl text-gray-300 font-alfa border-b-4 border-gray-400 pb-4 text-center w-1/2 mx-auto"
           >
             {{ category }}
           </h2>
