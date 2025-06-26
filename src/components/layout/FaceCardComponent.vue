@@ -14,8 +14,9 @@ import MusicComponent from '@/components/music/MusicComponent.vue'
     <div id="content" class="m-3 p-5">
       <MusicComponent />
       <div id="profile-image" class="flex justify-center">
+        <!-- src="/images/spring.webp" -->
         <img
-          src="/images/pfp.webp"
+          src="/images/summer_pfp.webp"
           alt="Foto Pol Sánchez"
           class="w-72 h-64 mt-4 object-cover rounded-full object-center"
         />
