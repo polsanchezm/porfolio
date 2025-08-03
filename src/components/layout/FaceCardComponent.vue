@@ -75,7 +75,7 @@ import MusicComponent from '@/components/music/MusicComponent.vue'
           </div>
           <div id="resume">
             <a
-              href="https://drive.google.com/file/d/19LWrcd8_HO1vK3mu_uGNYnvQHHQSl0Be/view?usp=sharing"
+              href="https://drive.google.com/file/d/13esj382JK5wRcwAMcB8u8GLJ24ezuiKT/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

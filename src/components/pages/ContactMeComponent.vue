@@ -53,7 +53,7 @@ import ResumeIcon from '@/components/icons/ResumeIcon.vue'
           <div class="flex justify-center">
             <a
               class="text-gray-300 hover:text-gray-950 font-bold flex hover:bg-white/20 px-3 py-2 rounded-full"
-              href="https://drive.google.com/file/d/19LWrcd8_HO1vK3mu_uGNYnvQHHQSl0Be/view?usp=sharing"
+              href="https://drive.google.com/file/d/13esj382JK5wRcwAMcB8u8GLJ24ezuiKT/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
