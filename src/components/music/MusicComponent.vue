@@ -25,9 +25,9 @@ onMounted(() => {
 <template>
   <div id="song-day" class="flex items-center justify-center">
     <div
-      class="flex bg-gray-950 rounded-full py-2 px-4 w-64 h-24 justify-between items-center"
+      class="flex bg-gray-950 rounded-full p-2 w-64 h-22 justify-between items-center"
     >
-      <div class="w-16 h-16 overflow-hidden rounded-full m-2 flex-shrink-0">
+      <div class="w-14 h-14 overflow-hidden rounded-full m-2 flex-shrink-0">
         <img
           :src="randomSong.cover"
           :alt="'Cover ' + randomSong.title"

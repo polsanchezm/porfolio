@@ -14,14 +14,14 @@ import TechnologiesComponent from '@/components/technologies/TechnologyListCompo
     <Navbar />
     <div class="flex min-h-screen">
       <aside
-        class="hidden xl:flex lg:sticky lg:top-0 lg:w-1/4 lg:h-screen lg:flex-col lg:justify-center ml-24"
+        class="hidden min-[1400px]:flex lg:sticky lg:top-0 lg:w-1/4 lg:h-screen lg:flex-col lg:justify-center ml-24"
       >
         <FaceCard />
       </aside>
 
       <section class="p-6">
         <Header />
-        <div class="xl:hidden lg:flex">
+        <div class="min-[1400px]:hidden lg:flex">
           <FaceCard />
         </div>
         <AboutMe />
