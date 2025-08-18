@@ -40,5 +40,17 @@
     "artist": "Oques Grasses",
     "cover": "https://polsanchezm.github.io/hosted-assets/elefants_300x300.png",
     "link": "https://www.youtube.com/watch?v=ksLd3Tm_uLs"
+  },
+  {
+    "title": "Operator",
+    "artist": "Jim Croce",
+    "cover": "https://polsanchezm.github.io/hosted-assets/operator_300x300.png",
+    "link": "https://www.youtube.com/watch?v=khYxP7TiFSA"
+  },
+  {
+    "title": "Sultans Of Swing",
+    "artist": "Dire Straits",
+    "cover": "https://polsanchezm.github.io/hosted-assets/sultans_of_swing_300x300.png",
+    "link": "https://www.youtube.com/watch?v=h0ffIJ7ZO4U"
   }
 ]
