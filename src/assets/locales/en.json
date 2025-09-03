@@ -74,7 +74,7 @@
   "about": {
     "title": "About me",
     "no-show-content": "<br /><span>Currently, I am working on my biggest solo project to date: a <span class=\"text-gray-200\">video and streaming platform</span> that aims to provide an enriching experience for both individual users and their communities.</span>",
-    "content": "Hi! I'm <span class=\"text-gray-200\">Pol</span>, a web application developer with experience in <span class=\"text-gray-200\">Vue.js</span> and <span class=\"text-gray-200\">React</span>, although I also have experience with <span class=\"text-gray-200\">NextJS</span>, <span class=\"text-gray-200\">Angular</span>, <span class=\"text-gray-200\">Laravel</span>, <span class=\"text-gray-200\">Express</span>.<br /><br />I love to keep up with the latest trends and take on new challenges that boost my professional growth.<br />Besides my technological side, I really enjoy music and the audiovisual world, which brings a creative touch to every project.<br /><br />I strongly believe in collaboration and the exchange of ideas to bring innovative solutions to life. My goal is to combine the technical side with the artistic side, achieving results that connect with people and generate real value."
+    "content": "Hi! I'm <span class=\"text-gray-200\">Pol</span>, a web application developer with experience in <span class=\"text-gray-200\">Vue.js</span> and <span class=\"text-gray-200\">Laravel</span>, although I also have experience with <span class=\"text-gray-200\">NextJS</span>, <span class=\"text-gray-200\">Angular</span>, <span class=\"text-gray-200\">React</span>, <span class=\"text-gray-200\">Express</span>.<br /><br />I love to keep up with the latest trends and take on new challenges that boost my professional growth.<br />Besides my technological side, I really enjoy music and the audiovisual world, which brings a creative touch to every project.<br /><br />I strongly believe in collaboration and the exchange of ideas to bring innovative solutions to life. My goal is to combine the technical side with the artistic side, achieving results that connect with people and generate real value."
   },
   "navbar": {
     "home": "Home",
@@ -87,13 +87,13 @@
     "title": "Contact me"
   },
   "facecard": {
-    "content": "Front-end Web Developer, specialised in Vue.js."
+    "content": "Full-stack Web Developer, specialised in Vue.js and Laravel."
   },
   "footer": {
     "content": "Almost all rights reserved"
   },
   "header": {
-    "content": "<span class=\"block\">Hi,</span><span class=\"block sm:ml-16 md:ml-16 lg:ml-16 xl:ml-16\">I'm Pol,</span><span class=\"block sm:ml-32 md:ml-32 lg:ml-32 xl:ml-32\">Front-end</span><span class=\"block sm:ml-32 md:ml-32 lg:ml-32 xl:ml-32\">Web Developer</span>",
+    "content": "<span class=\"block\">Hi,</span><span class=\"block sm:ml-16 md:ml-16 lg:ml-16 xl:ml-16\">I'm Pol,</span><span class=\"block sm:ml-32 md:ml-32 lg:ml-32 xl:ml-32\">Full-stack</span><span class=\"block sm:ml-32 md:ml-32 lg:ml-32 xl:ml-32\">Web Developer</span>",
     "button": "More about me"
   },
   "badge": {
