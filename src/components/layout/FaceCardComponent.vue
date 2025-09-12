@@ -73,11 +73,7 @@ import MusicComponent from '@/components/music/MusicComponent.vue'
             </a>
           </div>
           <div id="resume">
-            <a
-              href="https://drive.google.com/file/d/1ds9asGBrTqPuxALbDUxjHSIWCjYn5-UG/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a :href="$t('cv')" target="_blank" rel="noopener noreferrer">
               <div class="hover:bg-white/20 p-3 rounded-full">
                 <ResumeIcon
                   class="w-8 h-8 stroke-gray-400 hover:stroke-gray-950"
