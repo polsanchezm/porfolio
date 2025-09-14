@@ -12,7 +12,6 @@ import MusicComponent from '@/components/music/MusicComponent.vue'
     class="bg-gray-400 rounded-3xl shadow-md overflow-hidden max-w-xs mx-auto"
   >
     <div id="content" class="m-3 p-3">
-      <MusicComponent />
       <div id="profile-image" class="flex justify-center">
         <img
           src="/images/spring_pfp.webp"

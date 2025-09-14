@@ -7,6 +7,7 @@ import AboutMe from '@/components/pages/AboutMeComponent.vue'
 import Navbar from '@/components/layout/NavbarComponent.vue'
 import ContactMe from '@/components/pages/ContactMeComponent.vue'
 import TechnologiesComponent from '@/components/technologies/TechnologyListComponent.vue'
+import MusicComponent from '@/components/music/MusicComponent.vue'
 </script>
 
 <template>
@@ -31,5 +32,6 @@ import TechnologiesComponent from '@/components/technologies/TechnologyListCompo
         <Footer />
       </section>
     </div>
+    <MusicComponent />
   </main>
 </template>
