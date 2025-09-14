@@ -11,14 +11,14 @@ const project = defineProps<Project>()
     v-show="project.show"
     class="bg-gray-400 group/card relative overflow-hidden rounded-3xl"
   >
-    <div v-show="project.latest" class="absolute top-2 right-2 z-30">
+    <div v-show="project.latest" class="absolute top-2 right-2">
       <ProjectBadgeComponent
         :text="$t('badge.latest')"
         badgeColor="bg-green-600"
         noPulse
       />
     </div>
-    <div v-show="!project.finished" class="absolute top-2 left-2 z-30">
+    <div v-show="!project.finished" class="absolute top-2 left-2">
       <ProjectBadgeComponent :text="$t('badge.working')" />
     </div>
 

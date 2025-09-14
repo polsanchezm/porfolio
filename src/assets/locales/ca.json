@@ -23,6 +23,7 @@
         "image": "./images/bondlog-logo.webp",
         "link": "https://github.com/polsanchezm/Bondlog",
         "finished": true,
+        "latest": true,
         "show": true
       },
       {
