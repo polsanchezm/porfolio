@@ -82,7 +82,8 @@
     "projects": "Projects",
     "about": "About me",
     "contact": "Contact",
-    "technologies": "Technologies"
+    "technologies": "Technologies",
+    "stack": "Stack"
   },
   "contact": {
     "title": "Contact me"
@@ -130,9 +131,21 @@
         "color": "#ffd141"
       },
       {
+        "name": "Java",
+        "category": "Languages",
+        "icon": "logos:java",
+        "color": "#f7df1e"
+      },
+      {
         "name": "Vue.js",
         "category": "Front end",
         "icon": "logos:vue",
+        "color": "#3fb984"
+      },
+      {
+        "name": "Angular",
+        "category": "Front end",
+        "icon": "logos:angular-icon",
         "color": "#3fb984"
       },
       {
@@ -178,6 +191,18 @@
         "color": "#ffffff"
       },
       {
+        "name": "Feathers",
+        "category": "Back end",
+        "icon": "logos:feathersjs",
+        "color": "#ffffff"
+      },
+      {
+        "name": "Spring",
+        "category": "Back end",
+        "icon": "devicon:spring",
+        "color": "#ffffff"
+      },
+      {
         "name": "MongoDB",
         "category": "Back end",
         "icon": "logos:mongodb-icon",
@@ -212,6 +237,29 @@
         "category": "Others",
         "icon": "logos:postman-icon",
         "color": "#ff6c37"
+      }
+    ]
+  },
+  "stack": {
+    "title": "My tech stack",
+    "list": [
+      {
+        "name": "Vue.js",
+        "language": "TypeScript",
+        "icon": "logos:vue",
+        "color": "#3fb984"
+      },
+      {
+        "name": "Laravel",
+        "language": "PHP",
+        "icon": "logos:laravel",
+        "color": "#ff2d20"
+      },
+      {
+        "name": "MySQL",
+        "language": "SQL",
+        "icon": "logos:mysql-icon",
+        "color": "#4C9BAF"
       }
     ]
   }

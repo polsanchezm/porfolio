@@ -7,7 +7,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
-import { onMounted, onBeforeUnmount, ref, watch } from 'vue'
+import { onMounted, onBeforeUnmount, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import LanguageSelector from '@/components/ui/LanguageSelector.vue'
 import es from '@/assets/locales/es.json'
@@ -15,12 +15,17 @@ import en from '@/assets/locales/en.json'
 import ca from '@/assets/locales/ca.json'
 import { Icon } from '@iconify/vue/dist/iconify.js'
 
-const { t, locale } = useI18n()
+const { t } = useI18n()
 
-const navItems = ref([
+const navItems = computed(() => [
   { title: t('navbar.home'), label: 'home', url: '/#' },
   { title: t('navbar.about'), label: 'about-me', url: '/#about-me' },
   { title: t('navbar.projects'), label: 'projects', url: '/#projects' },
+  {
+    title: t('navbar.stack'),
+    label: 'stack',
+    url: '/#stack',
+  },
   {
     title: t('navbar.technologies'),
     label: 'technologies',
@@ -28,23 +33,6 @@ const navItems = ref([
   },
   { title: t('navbar.contact'), label: 'contact', url: '/#contact-me' },
 ])
-
-watch(
-  () => locale.value,
-  () => {
-    navItems.value = [
-      { title: t('navbar.home'), label: 'home', url: '/#' },
-      { title: t('navbar.about'), label: 'about-me', url: '/#about-me' },
-      { title: t('navbar.projects'), label: 'projects', url: '/#projects' },
-      {
-        title: t('navbar.technologies'),
-        label: 'technologies',
-        url: '/#technologies',
-      },
-      { title: t('navbar.contact'), label: 'contact', url: '/#contact-me' },
-    ]
-  },
-)
 
 onMounted(() => {
   const sections = document.querySelectorAll('section')
