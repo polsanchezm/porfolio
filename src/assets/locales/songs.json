@@ -54,9 +54,33 @@
     "link": "https://www.youtube.com/watch?v=h0ffIJ7ZO4U"
   },
   {
-    "title": "Lean On Me",
-    "artist": "Bill Withers",
-    "cover": "https://polsanchezm.github.io/hosted-assets/lean_on_me_300x300.png",
-    "link": "https://www.youtube.com/watch?v=dtC1W-6hwIU"
+    "title": "Reliquia",
+    "artist": "Rosalía",
+    "cover": "https://polsanchezm.github.io/hosted-assets/reliquia_300x300.png",
+    "link": "https://www.youtube.com/watch?v=xPaSuWrBAQI"
+  },
+  {
+    "title": "Defying Gravity",
+    "artist": "Cynthia Erivo",
+    "cover": "https://polsanchezm.github.io/hosted-assets/defying_gravity_300x300.png",
+    "link": "https://www.youtube.com/watch?v=qeqj5GnoFUY"
+  },
+  {
+    "title": "For Good",
+    "artist": "Cynthia Erivo & Ariana Grande",
+    "cover": "https://polsanchezm.github.io/hosted-assets/for_good_300x300.png",
+    "link": "https://www.youtube.com/watch?v=MTHxAzSYBDc"
+  },
+  {
+    "title": "Mayéutica",
+    "artist": "Robe",
+    "cover": "https://polsanchezm.github.io/hosted-assets/mayeutica_300x300.png",
+    "link": "https://www.youtube.com/watch?v=OpmrLR9wRAo"
+  },
+  {
+    "title": "Vaig Aprendre",
+    "artist": "Manu Guix, Cia. Petit Príncep",
+    "cover": "https://polsanchezm.github.io/hosted-assets/vaig_aprendre_300x300.png",
+    "link": "https://www.youtube.com/watch?v=67L4ZO0J_cQ"
   }
 ]
