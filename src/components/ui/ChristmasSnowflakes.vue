@@ -1,88 +1,88 @@
-<script setup lang="ts">
-import type { Snowflake } from '@/interfaces/Snowflake'
-import { onMounted, onBeforeUnmount, ref } from 'vue'
-
-
-const canvas = ref<HTMLCanvasElement | null>(null)
-let ctx: CanvasRenderingContext2D | null = null
-let flakes: Snowflake[] = []
-let animationFrameId: number
-
-const createFlakes = (num: number) => {
-  flakes = []
-  if (!canvas.value) return
-  for (let i = 0; i < num; i++) {
-    flakes.push({
-      x: Math.random() * canvas.value.width,
-      y: Math.random() * canvas.value.height,
-      r: Math.random() * 3 + 1,
-      d: Math.random(),
-    })
-  }
-}
-
-const resizeCanvas = () => {
-  if (!canvas.value) return
-  canvas.value.width = window.innerWidth
-  canvas.value.height = window.innerHeight
-  createFlakes(150)
-}
-
-const updateFlakes = () => {
-  if (!canvas.value) return
-  for (const f of flakes) {
-    f.y += Math.pow(f.d, 2) + 1
-    if (f.y > canvas.value.height) {
-      f.y = 0
-      f.x = Math.random() * canvas.value.width
-    }
-  }
-}
-
-const drawFlakes = () => {
-  if (!ctx || !canvas.value) return
-  ctx.clearRect(0, 0, canvas.value.width, canvas.value.height)
-  ctx.fillStyle = 'white'
-  ctx.beginPath()
-  for (const f of flakes) {
-    ctx.moveTo(f.x, f.y)
-    ctx.arc(f.x, f.y, f.r, 0, Math.PI * 2)
-  }
-  ctx.fill()
-  updateFlakes()
-}
-
-const animate = () => {
-  drawFlakes()
-  animationFrameId = requestAnimationFrame(animate)
-}
-
-onMounted(() => {
-  if (!canvas.value) return
-  ctx = canvas.value.getContext('2d')
-  resizeCanvas()
-  window.addEventListener('resize', resizeCanvas)
-  animate()
-})
-
-onBeforeUnmount(() => {
-  window.removeEventListener('resize', resizeCanvas)
-  cancelAnimationFrame(animationFrameId)
-})
-</script>
-
 <template>
-  <canvas ref="canvas" class="snow-canvas"></canvas>
+  <div class="christmas-snow-overlay" aria-hidden="true">
+    <div
+      v-for="flake in flakes"
+      :key="flake.id"
+      class="flake"
+      :style="flake.style"
+    >
+      {{ flake.icon }}
+    </div>
+  </div>
 </template>
 
+<script setup lang="ts">
+import type { Flake } from '@/interfaces/Flake'
+import { ref, onMounted } from 'vue'
+
+const FLAKE_COUNT = 60
+const ICONS = ['❄️', '❅', '❄️', '🌟', '🎄', '🎁', '🍭']
+const flakes = ref<Flake[]>([])
+
+onMounted(() => {
+  generateFlakes()
+})
+
+const generateFlakes = () => {
+  const newFlakes: Flake[] = []
+
+  for (let i = 0; i < FLAKE_COUNT; i++) {
+    const duration = Math.random() * 10 + 8
+    const delay = Math.random() * -20
+    const size = Math.random() * 16 + 12
+    const leftPosition = Math.random() * 100
+    const opacity = Math.random() * 0.6 + 0.4
+
+    newFlakes.push({
+      id: i,
+      icon: ICONS[Math.floor(Math.random() * ICONS.length)],
+      style: {
+        left: `${leftPosition}vw`,
+        animationDuration: `${duration}s`,
+        animationDelay: `${delay}s`,
+        fontSize: `${size}px`,
+        opacity: opacity,
+        filter: size < 18 ? 'blur(1px)' : 'none',
+      },
+    })
+  }
+  flakes.value = newFlakes
+}
+</script>
+
 <style scoped>
-.snow-canvas {
+.christmas-snow-overlay {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  pointer-events: none;
+  overflow: hidden;
   z-index: 9999;
+  pointer-events: none;
+}
+
+.flake {
+  position: absolute;
+  top: -50px;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+  user-select: none;
+  will-change: transform;
+  animation-name: snowfall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(55vh) translateX(25px) rotate(180deg);
+  }
+  100% {
+    transform: translateY(105vh) translateX(0) rotate(360deg);
+  }
 }
 </style>
