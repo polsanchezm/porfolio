@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import FaceCard from '@/components/layout/FaceCardComponent.vue'
+import MusicComponent from '@/components/music/MusicComponent.vue'
+</script>
+
 <template>
   <div class="min-h-screen flex flex-col pt-20">
     <div id="more-info" class="grid grid-cols-1 lg:flex xl:flex">
@@ -16,10 +21,13 @@
                 >
                   {{ $t('about.title') }}
                 </h1>
+
                 <p class="text-gray-500 font-patua p-4">
                   <span v-html="$t('about.content')"></span>
                 </p>
               </div>
+              <MusicComponent />
+              <FaceCard />
             </div>
           </div>
         </main>
