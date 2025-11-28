@@ -1,4 +1,4 @@
-export interface Project {
+interface Project {
   title: string
   description: string
   image: string
@@ -8,3 +8,5 @@ export interface Project {
   finished: boolean
   show: boolean
 }
+
+export type { Project }
