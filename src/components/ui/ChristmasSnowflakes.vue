@@ -16,7 +16,7 @@ import type { Flake } from '@/interfaces/Flake'
 import { ref, onMounted } from 'vue'
 
 const FLAKE_COUNT = 60
-const ICONS = ['❄️', '❅', '❄️', '🌟', '🎄', '🎁', '🍭']
+const ICONS = ['❄️', '❅', '🌟', '🎄', '🎁', '🍭']
 const flakes = ref<Flake[]>([])
 
 onMounted(() => {
