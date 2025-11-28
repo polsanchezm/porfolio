@@ -5,20 +5,20 @@ const { t, locale } = useI18n()
 import es from '@/assets/locales/es.json'
 import en from '@/assets/locales/en.json'
 import ca from '@/assets/locales/ca.json'
-import ActualStackCardComponent from '@/components/technologies/ActualStackCardComponent.vue'
-import type { ActualStack } from '@/interfaces/ActualStack'
+import type { Stack } from '@/interfaces/Stack'
+import StackCardComponent from '@/components/technologies/StackCardComponent.vue'
 
-const actualStack = ref<ActualStack[]>()
+const stack = ref<Stack[]>()
 
 const loadTechnologies = (lang: string) => {
   try {
-    const response: ActualStack[] =
+    const response: Stack[] =
       lang === 'es'
         ? es.stack.list
         : lang === 'ca'
           ? ca.stack.list
           : en.stack.list
-    actualStack.value = response;
+    stack.value = response
   } catch (error) {
     console.error('Error loading technologies:', error)
   }
@@ -43,10 +43,10 @@ watch(
       <div
         class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 justify-center"
       >
-        <ActualStackCardComponent
-          v-for="tech in actualStack"
-          :key="tech.name"
-          :actualStack="tech"
+        <StackCardComponent
+          v-for="value in stack"
+          :key="value.name"
+          :stack="value"
         />
       </div>
     </div>

@@ -1,6 +1,6 @@
 interface Technology {
   name: string
-  category: string
+  category?: string
   icon: string
   color?: string
 }
