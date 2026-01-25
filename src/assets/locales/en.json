@@ -15,7 +15,7 @@
         "description": "Music streaming application similar to Spotify. Developed with Vue.js, Express, and MongoDB.",
         "image": "./images/musicapp.webp",
         "finished": false,
-        "show": true
+        "show": false
       },
       {
         "title": "Bondlog",
