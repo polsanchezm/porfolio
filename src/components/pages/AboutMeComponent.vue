@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import SocialGrid from '@/components/layout/SocialGridComponent.vue'
-</script>
-
 <template>
   <div class="min-h-screen flex flex-col pt-20">
     <main class="flex-col flex text-left items-center justify-center">
