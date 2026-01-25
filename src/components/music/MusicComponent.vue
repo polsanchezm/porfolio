@@ -11,7 +11,7 @@ const artist = ref<HTMLElement | null>(null)
 <template>
   <div
     id="song-day"
-    class="flex items-center justify-center sticky bottom-4 z-1"
+    class="flex items-center justify-center bottom-4 z-1"
   >
     <div
       class="flex w-full bg-gray-700 rounded-full p-2 justify-start items-center shadow-gray-800 shadow-md border border-gray-900"
