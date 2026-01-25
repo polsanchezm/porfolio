@@ -74,8 +74,29 @@
   },
   "about": {
     "title": "Sobre mí",
-    "no-show-content": "<br /><span>Actualmente, estoy trabajando en mi proyecto en solitario más grande hasta la fecha: una <span class=\"text-gray-200\">plataforma de videos y streaming</span> que busca ofrecer una experiencia enriquecedora para los usuarios individuales y sus comunidades.</span>",
+    "noShowContent": "<br /><span>Actualmente, estoy trabajando en mi proyecto en solitario más grande hasta la fecha: una <span class=\"text-gray-200\">plataforma de videos y streaming</span> que busca ofrecer una experiencia enriquecedora para los usuarios individuales y sus comunidades.</span>",
     "content": "¡Hola! Soy <span class=\"text-gray-200\">Pol</span>, desarrollador de aplicaciones web con experiencia en <span class=\"text-gray-200\">Vue.js</span> y <span class=\"text-gray-200\">Laravel</span>, aunque también tengo experiencia con <span class=\"text-gray-200\">NextJS</span>, <span class=\"text-gray-200\">Angular</span>, <span class=\"text-gray-200\">React</span>, <span class=\"text-gray-200\">Express</span>.<br /><br />Me encanta estar al día con las últimas tendencias y asumir nuevos desafíos que impulsen mi crecimiento profesional.<br />Además de mi lado tecnológico, disfruto mucho de la música y el mundo audiovisual, lo que aporta un toque creativo a cada proyecto.<br /><br />Creo firmemente en la colaboración y el intercambio de ideas para dar vida a soluciones innovadoras. Mi objetivo es combinar la parte técnica con la parte artística, logrando resultados que conecten con las personas y generen un valor real."
+  },
+  "workExperience": {
+    "title": "Experiencia laboral",
+    "list": [
+      {
+        "jobTitle": "Becario Desarrollador Junior",
+        "company": "Altia",
+        "startDate": "Septiembre 2025",
+        "shortStartDate": "SEP 2025",
+        "endDate": "Actualidad",
+        "isLast": true
+      },
+      {
+        "jobTitle": "Becario en Desarrollo y Contenido Digital",
+        "company": "Net Engineer S.L.",
+        "startDate": "Mayo 2025",
+        "shortStartDate": "MAY 2025",
+        "endDate": "Julio 2025",
+        "isLast": false
+      }
+    ]
   },
   "navbar": {
     "home": "Inicio",

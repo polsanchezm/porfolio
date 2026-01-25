@@ -74,8 +74,29 @@
   },
   "about": {
     "title": "Sobre mi",
-    "no-show-content": "<br /><span>Actualment, estic treballant en el meu projecte en solitari més gran fins avui: una <span class=\"text-gray-200\">plataforma de vídeos i streaming</span> que cerca oferir una experiència enriquidora per als usuaris individuals i les seves comunitats.</span>",
+    "noShowContent": "<br /><span>Actualment, estic treballant en el meu projecte en solitari més gran fins avui: una <span class=\"text-gray-200\">plataforma de vídeos i streaming</span> que cerca oferir una experiència enriquidora per als usuaris individuals i les seves comunitats.</span>",
     "content": "Hola! Sóc <span class=\"text-gray-200\">Pol</span>, desenvolupador d'aplicacions web amb experiència en <span class=\"text-gray-200\">Vue.js</span> i <span class=\"text-gray-200\">Laravel</span>, tot i que també tinc experiència amb <span class=\"text-gray-200\">NextJS</span>, <span class=\"text-gray-200\">Angular</span>, <span class=\"text-gray-200\">React</span>, <span class=\"text-gray-200\">Express</span>.<br /><br />M'encanta estar al dia amb les últimes tendències i assumir nous reptes que impulsin el meu creixement professional.<br />A més del meu costat tecnològic, gaudeixo molt de la música i del món audiovisual, cosa que aporta un toc creatiu a cada projecte.<br /><br />Crec fermament en la col·laboració i l'intercanvi d'idees per donar vida a solucions innovadores. El meu objectiu és combinar la part tècnica amb la part artística, aconseguint resultats que connectin amb les persones i generin un valor real."
+  },
+  "workExperience": {
+    "title": "Experiència laboral",
+    "list": [
+      {
+        "jobTitle": "Becari Desenvolupador Junior",
+        "company": "Altia",
+        "startDate": "Setembre 2025",
+        "shortStartDate": "SET 2025",
+        "endDate": "Actualitat",
+        "isLast": true
+      },
+      {
+        "jobTitle": "Becari en Desenvolupament i Contingut Digital",
+        "company": "Net Engineer S.L.",
+        "startDate": "Maig 2025",
+        "shortStartDate": "MAI 2025",
+        "endDate": "Juliol 2025",
+        "isLast": false
+      }
+    ]
   },
   "navbar": {
     "home": "Inici",

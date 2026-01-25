@@ -7,6 +7,7 @@ import Navbar from '@/components/layout/NavbarComponent.vue'
 import ContactMe from '@/components/pages/ContactMeComponent.vue'
 import TechnologiesComponent from '@/components/technologies/TechnologyListComponent.vue'
 import StackComponent from '@/components/technologies/StackComponent.vue'
+import WorkExperienceComponent from '@/components/experience/WorkExperienceComponent.vue'
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import StackComponent from '@/components/technologies/StackComponent.vue'
       <section class="p-6">
         <Header />
         <AboutMe />
+        <WorkExperienceComponent />
         <ProjectGrid />
         <StackComponent />
         <TechnologiesComponent />
