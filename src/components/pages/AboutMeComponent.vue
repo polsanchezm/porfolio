@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import FaceCard from '@/components/layout/FaceCardComponent.vue'
-import MusicComponent from '@/components/music/MusicComponent.vue'
+import SocialGrid from '@/components/layout/SocialGridComponent.vue'
 </script>
 
 <template>
@@ -24,8 +23,6 @@ import MusicComponent from '@/components/music/MusicComponent.vue'
               <span v-html="$t('about.content')"></span>
             </p>
           </div>
-          <MusicComponent />
-          <FaceCard />
         </div>
       </div>
     </main>
