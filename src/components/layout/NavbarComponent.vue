@@ -20,6 +20,7 @@ const { t } = useI18n()
 const navItems = computed(() => [
   { title: t('navbar.home'), label: 'home', url: '/#' },
   { title: t('navbar.about'), label: 'about-me', url: '/#about-me' },
+  { title: t('navbar.workExperience'), label: 'work-experience', url: '/#work-experience' },
   { title: t('navbar.projects'), label: 'projects', url: '/#projects' },
   {
     title: t('navbar.stack'),
