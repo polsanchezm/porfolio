@@ -1,8 +1,7 @@
 <template>
-  <div class="min-h-screen flex flex-col pt-20">
-    <main class="flex-col flex text-left items-center justify-center">
+  <main id="about-me" class="min-h-screen flex flex-col pt-20">
+    <div class="flex-col flex text-left items-center justify-center">
       <div
-        id="about-me"
         class="flex items-center justify-center min-h-screen m-4 max-w-4xl mx-auto"
       >
         <div
@@ -21,6 +20,6 @@
           </div>
         </div>
       </div>
-    </main>
-  </div>
+    </div>
+  </main>
 </template>

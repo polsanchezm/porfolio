@@ -1,12 +1,14 @@
 <script setup lang="ts">
-import SocialListComponent from '../layout/SocialListComponent.vue'
-import SocialGridComponent from '../layout/SocialGridComponent.vue'
+import SocialListComponent from '@/components/social/SocialListComponent.vue'
+import SocialGridComponent from '@/components/social/SocialGridComponent.vue'
 </script>
 
 <template>
-  <main class="flex-col flex text-left items-center justify-center">
+  <main
+    id="contact-me"
+    class="flex-col flex text-left items-center justify-center"
+  >
     <div
-      id="contact-me"
       class="flex items-center justify-center min-h-screen m-4 max-w-4xl mx-auto"
     >
       <div

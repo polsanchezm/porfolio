@@ -2,7 +2,7 @@
 import type { Technology } from '@/interfaces/Technology'
 import { Icon } from '@iconify/vue'
 
-const props = defineProps<{
+defineProps<{
   technology: Technology
 }>()
 </script>

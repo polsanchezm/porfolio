@@ -2,7 +2,7 @@
 import type { Stack } from '@/interfaces/Stack'
 import { Icon } from '@iconify/vue'
 
-const props = defineProps<{
+defineProps<{
   stack: Stack
 }>()
 </script>

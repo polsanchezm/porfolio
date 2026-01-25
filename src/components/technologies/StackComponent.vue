@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
-const { t, locale } = useI18n()
+const { locale } = useI18n()
 import es from '@/assets/locales/es.json'
 import en from '@/assets/locales/en.json'
 import ca from '@/assets/locales/ca.json'
@@ -36,7 +36,7 @@ watch(
 <template>
   <div id="stack" class="max-w-6xl mx-auto p-8" ref="target">
     <h1 class="text-4xl text-gray-300 font-alfa text-center mb-12">
-      {{ t('stack.title') }}
+      {{ $t('stack.title') }}
     </h1>
 
     <div
