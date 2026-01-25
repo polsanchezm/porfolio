@@ -7,12 +7,10 @@ import Navbar from '@/components/layout/NavbarComponent.vue'
 import ContactMe from '@/components/pages/ContactMeComponent.vue'
 import TechnologiesComponent from '@/components/technologies/TechnologyListComponent.vue'
 import StackComponent from '@/components/technologies/StackComponent.vue'
-import ChristmasSnowflakes from '@/components/ui/ChristmasSnowflakes.vue'
 </script>
 
 <template>
   <main>
-    <ChristmasSnowflakes />
     <Navbar />
     <div class="justify-center items-center min-h-screen">
       <section class="p-6">
