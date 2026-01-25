@@ -90,23 +90,13 @@ html {
 
     --chart-5: 340 75% 55%;
   }
-}
-
-@layer base {
   * {
     box-sizing: border-box;
     padding: 0;
+    border-color: var(--border);
   }
   body {
-    @apply bg-gradient-to-b from-gray-900 to-gray-500;
-  }
-}
-
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
+    background: linear-gradient(to bottom, #111827, #6b7280);
+    color: var(--foreground);
   }
 }

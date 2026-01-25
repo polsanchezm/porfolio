@@ -35,20 +35,18 @@ watch(
 
 <template>
   <div id="stack" class="max-w-6xl mx-auto p-8" ref="target">
-    <div>
-      <h1 class="text-4xl text-gray-300 font-alfa text-center mb-12">
-        {{ t('stack.title') }}
-      </h1>
+    <h1 class="text-4xl text-gray-300 font-alfa text-center mb-12">
+      {{ t('stack.title') }}
+    </h1>
 
-      <div
-        class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 justify-center"
-      >
-        <StackCardComponent
-          v-for="value in stack"
-          :key="value.name"
-          :stack="value"
-        />
-      </div>
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 justify-center"
+    >
+      <StackCardComponent
+        v-for="value in stack"
+        :key="value.name"
+        :stack="value"
+      />
     </div>
   </div>
 </template>
