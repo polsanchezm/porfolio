@@ -81,12 +81,20 @@
     "title": "Work experience",
     "list": [
       {
+        "jobTitle": "Junior Developer",
+        "company": "Altia",
+        "startDate": "March 2025",
+        "shortStartDate": "MAR 2025",
+        "endDate": "Present",
+        "isLast": true
+      },
+      {
         "jobTitle": "Junior Developer Intern",
         "company": "Altia",
         "startDate": "September 2025",
         "shortStartDate": "SEP 2025",
-        "endDate": "Present",
-        "isLast": true
+        "endDate": "March 2025",
+        "isLast": false
       },
       {
         "jobTitle": "Intern in Digital Development and Content",

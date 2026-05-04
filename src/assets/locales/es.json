@@ -81,12 +81,20 @@
     "title": "Experiencia laboral",
     "list": [
       {
+        "jobTitle": "Desarrollador Junior",
+        "company": "Altia",
+        "startDate": "Marzo 2025",
+        "shortStartDate": "MAR 2025",
+        "endDate": "Actualidad",
+        "isLast": true
+      },
+      {
         "jobTitle": "Becario Desarrollador Junior",
         "company": "Altia",
         "startDate": "Septiembre 2025",
         "shortStartDate": "SEP 2025",
-        "endDate": "Actualidad",
-        "isLast": true
+        "endDate": "Marzo 2025",
+        "isLast": false
       },
       {
         "jobTitle": "Becario en Desarrollo y Contenido Digital",
